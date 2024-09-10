@@ -2,6 +2,8 @@ const express = require("express");
 const fs = require("fs");
 const app = express();
 const randomstring = require("randomstring");
+const cron = require("node-cron");
+
 const port = 8070; // You can change the port as needed
 
 const randomStr = randomstring.generate({
@@ -46,7 +48,20 @@ app.get("/api/data", (req, res) => {
     }
   });
 });
-
+cron.schedule("30 * * * *", () => {
+  // Replace the following with your actual API endpoint
+  fetch("http://localhost:8070/api/otp")
+    .then((response) => {
+      if (response.ok) {
+        console.log("API request successful");
+      } else {
+        console.error("API request failed:", response.statusText);
+      }
+    })
+    .catch((error) => {
+      console.error("API request error:", error);
+    });
+});
 app.get("/api/otp", (req, res) => {
   const randomStr = randomstring.generate({
     length: 5,
@@ -54,13 +69,9 @@ app.get("/api/otp", (req, res) => {
     capitalization: "uppercase",
     readable: true,
   });
-  res.send(randomStr);
+  res.json({ OTP: randomStr });
 
   // Schedule the API endpoint to be re-executed every 1 minute
-  setInterval(() => {
-    const newRandomStr = randomstring.generate();
-    res.send(newRandomStr);
-  }, 30000);
 });
 
 // Start the server
