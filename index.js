@@ -1,36 +1,13 @@
 const express = require("express");
+
 const fs = require("fs");
-const app = express();
 const randomstring = require("randomstring");
 const cron = require("node-cron");
-const localforage = require("localforage");
+const app = express();
 
 const port = 8070; // You can change the port as needed
 
-const randomStr = randomstring.generate({
-  length: 5, // Specify the desired length
-  charset: "alphanumeric", // Choose the character set (alphabetic, numeric, or alphanumeric)
-  capitalization: "uppercase", // Set capitalization (uppercase, lowercase, or mixed)
-  readable: true, // Generate more human-readable strings
-});
-// function generateRandomNumberWithLetters(length) {
-//   const numbers = "0123456789";
-//   const letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-//   const combinedChars = numbers + letters;
-
-//   let randomString = "";
-//   for (let i = 0; i < length; i++) {
-//     const randomIndex = Math.floor(Math.random() * combinedChars.length);
-//     randomString += combinedChars.charAt(randomIndex);
-//   }
-
-//   return randomString;
-// }
-
-// // Example usage:
-// const randomString = generateRandomNumberWithLetters(5).toUpperCase();
-// console.log(randomString);
-function randomOTP() {
+function generateOTP() {
   const randomStr = randomstring.generate({
     length: 5,
     charset: "alphanumeric",
@@ -39,6 +16,8 @@ function randomOTP() {
   });
   return randomStr;
 }
+let otp = generateOTP();
+let otpExpiry = Date.now() + 300000;
 // Middleware to parse JSON requests
 app.use(express.json());
 
@@ -57,26 +36,17 @@ app.get("/api/data", (req, res) => {
     }
   });
 });
-cron.schedule("30 * * * *", () => {
-  // Replace the following with your actual API endpoint
-  const otp = randomOTP();
-  localforage.setItem("OTP", otp);
-
-  // fetch("https://api-line-bot.onrender.com/api/generateOTP")
-  //   .then((response) => {
-  //     if (response.ok) {
-  //       console.log("API request successful");
-  //     } else {
-  //       console.error("API request failed:", response.statusText);
-  //     }
-  //   })
-  //   .catch((error) => {
-  //     console.error("API request error:", error);
-  //   });
+cron.schedule("*/3 * * * *", () => {
+  otp = generateOTP();
+  otpExpiry = Date.now() + 180000; // Reset expiry time
+  console.log(`New OTP generated: ${otp}`);
 });
 app.get("/api/otp", (req, res) => {
-  const localOTP = localforage.getItem("OTP");
-  res.json({ OTP: localOTP });
+  if (Date.now() > otpExpiry) {
+    res.status(400).send({ message: "OTP has expired" });
+  } else {
+    res.send({ otp: otp, expiry: new Date(otpExpiry).toISOString() });
+  }
 
   // Schedule the API endpoint to be re-executed every 1 minute
 });
