@@ -74,7 +74,7 @@ cron.schedule("30 * * * *", () => {
   //     console.error("API request error:", error);
   //   });
 });
-app.get("/api/generateOTP", (req, res) => {
+app.get("/api/otp", (req, res) => {
   const localOTP = localforage.getItem("OTP");
   res.json({ OTP: localOTP });
 
