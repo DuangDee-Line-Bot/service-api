@@ -1,0 +1,2802 @@
+[
+  {
+    "key": "w1",
+    "Aspect": "งาน",
+    "TH": "ชอบเป็นผู้ริเริ่ม หนักไม่เอา เบาไม่สู้",
+    "CH": "喜欢成为发起者，不太重，也不太轻。",
+    "ENG": "Likes to be the initiator, not too heavy, not too light."
+  },
+  {
+    "key": "m1",
+    "Aspect": "เงิน",
+    "TH": "ใช้หมด ค่อยหา มักมีคนอุปถัมภ์",
+    "CH": "都用它，经常发现它，总有人光顾它。",
+    "ENG": "Use it all, find it often, there are always people who patronize it."
+  },
+  {
+    "key": "l1",
+    "Aspect": "รัก",
+    "TH": "รักไปเรื่อยๆ ไม่สัญญา โชคดีเรื่องรัก เพราะช่างเจรจา",
+    "CH": "保持爱，不许诺，祝爱情好运。因为他是一位谈判高手。",
+    "ENG": "Keep loving, no promises, good luck in love. Because he's such a negotiator."
+  },
+  {
+    "key": "h1",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "强的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j1",
+    "Aspect": "อาชีพ",
+    "TH": "ศิลปินเดี่ยว นักร้อง นักแสดง เปิดผับ บาร์ สถานเริงรมย์ แอร์ สจ๊วต",
+    "CH": "独奏艺术家、歌手、演员、开酒馆、酒吧、娱乐场所、空姐",
+    "ENG": "Solo artist, singer, actor, opens pub, bar, entertainment venue, air steward."
+  },
+  {
+    "key": "w2",
+    "Aspect": "งาน",
+    "TH": "มีงานสองอย่างในขณะเดียวกันและไม่คุ้นเคยมาก่อน",
+    "CH": "同时做两份工作，之前不太习惯。",
+    "ENG": "Having two jobs at the same time and not being used to it before."
+  },
+  {
+    "key": "m2",
+    "Aspect": "เงิน",
+    "TH": "มีไม่ขาด",
+    "CH": "不缺。",
+    "ENG": "There's no shortage."
+  },
+  {
+    "key": "l2",
+    "Aspect": "รัก",
+    "TH": "แอบรัก ชอบช่วงชิง ฟลุ๊ค",
+    "CH": "暗恋喜欢争夺侥幸",
+    "ENG": "Secretly in love, like to compete for fluke"
+  },
+  {
+    "key": "h2",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "强的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j2",
+    "Aspect": "อาชีพ",
+    "TH": "มัคคุเทศก์ ประชาสัมพันธ์ นายหน้า ประกัน เลขาฯ หมอดู แอร์ สจ๊วต",
+    "CH": "导游、公关、经纪人、保险、秘书、算命师、空姐",
+    "ENG": "Tour gukeye, public relations, broker, insurance, secretary, fortune teller, air steward."
+  },
+  {
+    "key": "w3",
+    "Aspect": "งาน",
+    "TH": "ด้านบริการและเกี่ยวกับศิลป์",
+    "CH": "服务与艺术",
+    "ENG": "Services and art"
+  },
+  {
+    "key": "m3",
+    "Aspect": "เงิน",
+    "TH": "ได้ลับๆ ไม่ขาดมือ",
+    "CH": "秘密地，不遗漏任何一个节拍",
+    "ENG": "Secretly, without missing a beat"
+  },
+  {
+    "key": "l3",
+    "Aspect": "รัก",
+    "TH": "ต้องแอบซ่อน เปิดเผยไม่ได้ รักลับๆ",
+    "CH": "必须隐藏，不能公开，暗恋",
+    "ENG": "Must be hkeyden, cannot be revealed, secret love"
+  },
+  {
+    "key": "h3",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "强的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j3",
+    "Aspect": "อาชีพ",
+    "TH": "ครีเอทีฟ งานศิลป์ โฆษณา กวี วรรณกรรม นักประพันธ์",
+    "CH": "创意艺术、广告、诗歌、文学、作家",
+    "ENG": "Creative, artwork, advertising, poetry, literature, writers."
+  },
+  {
+    "key": "w4",
+    "Aspect": "งาน",
+    "TH": "มั่นคง เจ้าของกิจการ",
+    "CH": "稳定，企业主",
+    "ENG": "Stable, business owner"
+  },
+  {
+    "key": "m4",
+    "Aspect": "เงิน",
+    "TH": "มั่นคง ร่ำรวย",
+    "CH": "稳定、富有",
+    "ENG": "Stable, wealthy"
+  },
+  {
+    "key": "l4",
+    "Aspect": "รัก",
+    "TH": "อบอุ่น หวานชื่น แต่งงาน ตั้งครรภ์",
+    "CH": "温馨、甜蜜、婚礼、怀孕",
+    "ENG": "Warm, sweet, wedding, pregnancy"
+  },
+  {
+    "key": "h4",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "强的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j4",
+    "Aspect": "อาชีพ",
+    "TH": "เจ้าของกิจการ งานเกี่ยวข้องกับสตรี เด็ก พืชพันธุ์ ธัญญาหาร",
+    "CH": "业主与妇女、儿童、农作物、谷物有关的工作",
+    "ENG": "Business owner, work related to women, children, crops, cereals"
+  },
+  {
+    "key": "w5",
+    "Aspect": "งาน",
+    "TH": "มั่นคง ร่วมหุ้นกับชาวต่างชาติ",
+    "CH": "稳定，与外国人合资",
+    "ENG": "Stable, joint stock with foreigners"
+  },
+  {
+    "key": "m5",
+    "Aspect": "เงิน",
+    "TH": "ชั้นเศรษฐี",
+    "CH": "百万富翁阶层",
+    "ENG": "Millionaire class"
+  },
+  {
+    "key": "l5",
+    "Aspect": "รัก",
+    "TH": "แต่งงานกับคนสูงอายุหรือต่างชาติแก่กว่า 5-10 ปีขึ้นไป",
+    "CH": "与老人或比你年长5-10岁的外国人结婚。",
+    "ENG": "Marry an elderly person or a foreigner 5-10 years older than you."
+  },
+  {
+    "key": "h5",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "强的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j5",
+    "Aspect": "อาชีพ",
+    "TH": "ตำรวจ ทหารระดับนายพล นักการเมือง ส.ส. ร.ม.ต. วุฒิสภา ที่ปรึกษา ป.ป.ช.",
+    "CH": "警察、普通士兵、政治家、国会议员、中尉指挥官、参议院、国家反腐败委员会顾问",
+    "ENG": "Police, soldiers at general level, politicians, MPs, Lieutenant Commanders, Senate, NACC advisors."
+  },
+  {
+    "key": "w6",
+    "Aspect": "งาน",
+    "TH": "ศาสนา เกี่ยวกับการกุศล",
+    "CH": "宗教、慈善",
+    "ENG": "Religion, Charity"
+  },
+  {
+    "key": "m6",
+    "Aspect": "เงิน",
+    "TH": "ไม่มี",
+    "CH": "没有钱",
+    "ENG": "Do not have money"
+  },
+  {
+    "key": "l6",
+    "Aspect": "รัก",
+    "TH": "แต่งช้า อาจไม่แต่ง เป็นหม้าย คู่สูงอายุ คิดช้า",
+    "CH": "晚婚、可能不结婚、丧偶、老年夫妇、思维迟钝",
+    "ENG": "Married late, may not marry, wkeyowed, elderly couple, slow to think"
+  },
+  {
+    "key": "h6",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "强的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j6",
+    "Aspect": "อาชีพ",
+    "TH": "นักบวช บาทหลวง ผู้ทรงศีล ผู้พิพากษา ครู อาจารย์",
+    "CH": "神父、主教、有德行的人、法官、教师",
+    "ENG": "Priests, bishops, virtuous people, judges, teachers."
+  },
+  {
+    "key": "w7",
+    "Aspect": "งาน",
+    "TH": "ดี มั่นคง",
+    "CH": "不错，稳定",
+    "ENG": "Good, stable"
+  },
+  {
+    "key": "m7",
+    "Aspect": "เงิน",
+    "TH": "มีมาไม่ขาดมือ",
+    "CH": "不缺钱。",
+    "ENG": "There is no shortage of money"
+  },
+  {
+    "key": "l7",
+    "Aspect": "รัก",
+    "TH": "มีมากมายให้เลือก ได้แต่งงาน หมั้นหมาย ได้เพื่อนต่างเพศที่ดี",
+    "CH": "有很多选择：结婚、订婚、交好异性朋友。",
+    "ENG": "There are many to choose from: get married, get engaged, make good friends of the opposite sex"
+  },
+  {
+    "key": "h7",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "强的",
+    "ENG": "Very strong"
+  },
+  {
+    "key": "j7",
+    "Aspect": "อาชีพ",
+    "TH": "เสริมสวย ร้านดอกไม้ อัญมณี โรงแรม โฮเต็ล ร้านอาหาร ขนมกิ๊ปช๊อฟ",
+    "CH": "美容院、花店、珠宝店、酒店、餐厅、礼品店",
+    "ENG": "Beauty salons, flower shops, jewelry shops, hotels, restaurants, gift shops"
+  },
+  {
+    "key": "w8",
+    "Aspect": "งาน",
+    "TH": "เกี่ยวข้องกับต่างประเทศ เป็นเจ้าของ มั่นคง",
+    "CH": "与外国人合资、拥有，稳定",
+    "ENG": "Related to foreign countries, owned, stable"
+  },
+  {
+    "key": "m8",
+    "Aspect": "เงิน",
+    "TH": "มีไม่ขาด",
+    "CH": "不缺钱。",
+    "ENG": "There is no shortage of money"
+  },
+  {
+    "key": "l8",
+    "Aspect": "รัก",
+    "TH": "ต้องช่วงชิง",
+    "CH": "必须争夺",
+    "ENG": "Must scramble"
+  },
+  {
+    "key": "h8",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "强的",
+    "ENG": "Very strong"
+  },
+  {
+    "key": "j8",
+    "Aspect": "อาชีพ",
+    "TH": "เป็นเจ้าของบริษัทค้ากับต่างประเทศ แอร์ สจ๊วต ตำรวจ ทหาร นักกีฬา (เหมาะกับการแข่งขัน) วิศวกร ต้องเดินทางต่างประเทศบ่อยๆ",
+    "CH": "擁有外貿公司、空服員、警察、軍人、運動員（適合競賽）、工程師，必須經常出國出差。",
+    "ENG": "Owning a foreign trading company, air steward, police officer, soldier, athlete (suitable for competition), engineer, must travel abroad frequently."
+  },
+  {
+    "key": "w9",
+    "Aspect": "งาน",
+    "TH": "มีงานตลอดมั่นคง ต้องแข่งขัน ช่วงชิง",
+    "CH": "总有一份稳定的工作，就要竞争、竞争。",
+    "ENG": "Always have a stable job, have to compete, compete."
+  },
+  {
+    "key": "m9",
+    "Aspect": "เงิน",
+    "TH": "มี แต่กว่าจะได้เหนื่อย ได้ด้วยตัวเอง",
+    "CH": "是的，但在我累之前。自己",
+    "ENG": "Yes, but before I get tired. by yourself"
+  },
+  {
+    "key": "l9",
+    "Aspect": "รัก",
+    "TH": "หาคู่ยาก ไม่พบรัก",
+    "CH": "找伴侣难，找不到爱",
+    "ENG": "Hard to find a partner, can't find love"
+  },
+  {
+    "key": "h9",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "强的",
+    "ENG": "Very strong"
+  },
+  {
+    "key": "j9",
+    "Aspect": "อาชีพ",
+    "TH": "นายทุนเงินกู้ เจ้าของกิจการ",
+    "CH": "高利贷者业主",
+    "ENG": "Loan shark, Business owner"
+  },
+  {
+    "key": "w10",
+    "Aspect": "งาน",
+    "TH": "มั่นคงไปช้าๆ ตัดสินใจช้ามากเสียกาล",
+    "CH": "保持稳定并缓慢做出决定会浪费时间。",
+    "ENG": "Be steady and go slowly. Deckeye too slowly and waste time."
+  },
+  {
+    "key": "m10",
+    "Aspect": "เงิน",
+    "TH": "ได้จากผู้ใหญ่และการบริจาค",
+    "CH": "从成人和捐赠中获得",
+    "ENG": "Obtained from adults and donations"
+  },
+  {
+    "key": "l10",
+    "Aspect": "รัก",
+    "TH": "แต่งช้า อาจไม่แต่ง หม้าย",
+    "CH": "晚婚、不婚、丧偶",
+    "ENG": "Married late, may not marry, wkeyowed"
+  },
+  {
+    "key": "h10",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "强的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j10",
+    "Aspect": "อาชีพ",
+    "TH": "การกุศล ครูสอนศาสนา พระ",
+    "CH": "慈善家、宗教教师、僧侣",
+    "ENG": "Charity, religious teacher, monk"
+  },
+  {
+    "key": "w11",
+    "Aspect": "งาน",
+    "TH": "มั่นคง สำเร็จแบบพลิกล็อค",
+    "CH": "稳定，成功，但又有些曲折",
+    "ENG": "Stable, successful with a twist"
+  },
+  {
+    "key": "m11",
+    "Aspect": "เงิน",
+    "TH": "มีไม่ขาด",
+    "CH": "不缺。",
+    "ENG": "There's no shortage."
+  },
+  {
+    "key": "l11",
+    "Aspect": "รัก",
+    "TH": "ได้คู่มีฐานะ และมีมาไม่ขาด",
+    "CH": "找一个有地位的伴侣，一定要拥有。",
+    "ENG": "Get a partner with status and have it without fail."
+  },
+  {
+    "key": "h11",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "强的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j11",
+    "Aspect": "อาชีพ",
+    "TH": "นายหน้าขายที่ดิน บ้านเช่า",
+    "CH": "土地销售代理、房屋出租",
+    "ENG": "Land sales agent, house for rent"
+  },
+  {
+    "key": "w12",
+    "Aspect": "งาน",
+    "TH": "มั่นคง และมีเกียรติ",
+    "CH": "稳定、尊贵",
+    "ENG": "Stable and honorable"
+  },
+  {
+    "key": "m12",
+    "Aspect": "เงิน",
+    "TH": "มีพอประมาณ",
+    "CH": "拥有足够的",
+    "ENG": "Have enough"
+  },
+  {
+    "key": "l12",
+    "Aspect": "รัก",
+    "TH": "พิถีพิถัน ต้องถูกทำนองคลองธรรม",
+    "CH": "一丝不苟，必须以道德规范。",
+    "ENG": "Meticulous, must be morally regulated."
+  },
+  {
+    "key": "h12",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "强的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j12",
+    "Aspect": "อาชีพ",
+    "TH": "ผู้พิพากษา ป.ป.ช. รับราชการตำแหน่งสูง ที่ปรึกษา ส.ส. ร.ม.ต.",
+    "CH": "NACC 法官担任高级政府职务，是 MP、R.M.T. 的顾问。",
+    "ENG": "NACC judge holds a high government position, advisor to MP, R.M.T."
+  },
+  {
+    "key": "w13",
+    "Aspect": "งาน",
+    "TH": "ตกงาน ยุบเลิกบริษัท ถูกไล่ออก ทำ 2 อย่างพร้อมกันไม่ได้ต้องเลือก",
+    "CH": "失业、公司解散、被解雇，不能同时做两件事，你必须选择。",
+    "ENG": "Unemployed, company dissolved, fired, can't do two things at the same time, you have to choose."
+  },
+  {
+    "key": "m13",
+    "Aspect": "เงิน",
+    "TH": "เป็นหนี้ ถูกฟ้อง ถูกโกง",
+    "CH": "负债、被起诉、被骗",
+    "ENG": "Being in debt, being sued, being cheated"
+  },
+  {
+    "key": "l13",
+    "Aspect": "รัก",
+    "TH": "แตกแยกเลิกรา หย่าร้าง อาจแท้งบุตร อย่าเหยียบเรือสองแคม",
+    "CH": "分手、分手、离婚，可能会流产。",
+    "ENG": "Breakup, breakup, divorce, possible miscarriage. Don't step on a double-barreled boat."
+  },
+  {
+    "key": "h13",
+    "Aspect": "สุขภาพ",
+    "TH": "เข้าโรงพยาบาล ผ่าตัด อุบัติเหตุ ตัดมดลูก (ท่านชายต่อมลูกหมาก)",
+    "CH": "去医院、手术、意外、子宫切除（男性前列腺）",
+    "ENG": "Going to the hospital, surgery, acckeyent, hysterectomy (men's prostate)"
+  },
+  {
+    "key": "j13",
+    "Aspect": "อาชีพ",
+    "TH": "หมอผ่าตัด ขายประกัน มูลนิธิเกี่ยวกับการกุศล (ความตาย)",
+    "CH": "外科医生、保险销售员、慈善基金会（死亡）",
+    "ENG": "Surgeon, insurance seller, charity foundation (death)"
+  },
+  {
+    "key": "w14",
+    "Aspect": "งาน",
+    "TH": "ตกงาน ถูกไล่ออก ยุบเลิกบริษัท เปลี่ยนงาน",
+    "CH": "失业、被解雇、公司解散、换工作",
+    "ENG": "Unemployed, fired, company dissolved, job changed"
+  },
+  {
+    "key": "m14",
+    "Aspect": "เงิน",
+    "TH": "มีหนี้สิน มีคดีความ ถูกโกง ถูกหลอก หมดตัว",
+    "CH": "欠债、打官司、被骗、被骗、破产。",
+    "ENG": "Having debt, having a lawsuit, being cheated, being deceived, being bankrupt."
+  },
+  {
+    "key": "l14",
+    "Aspect": "รัก",
+    "TH": "เลิกรา หย่าร้าง หม้าย ถูกทอดทิ้ง ขมขื่น",
+    "CH": "分手、离婚、丧偶、被遗弃、痛苦。",
+    "ENG": "Breakup, divorce, wkeyowed, abandoned, bitter."
+  },
+  {
+    "key": "h14",
+    "Aspect": "สุขภาพ",
+    "TH": "ป่วยหนักปางตาย ระวังอุบัติเหตุ",
+    "CH": "病重且濒临死亡小心发生意外。",
+    "ENG": "Seriously ill and dying, be careful of acckeyents."
+  },
+  {
+    "key": "j14",
+    "Aspect": "อาชีพ",
+    "TH": "ขายประกัน มูลนิธิเกี่ยวกับความตาย แพทย์ พยาบาล",
+    "CH": "销售保险、死亡相关基金会、医生、护士",
+    "ENG": "Selling insurance, death related foundations, doctors, nurses"
+  },
+  {
+    "key": "w15",
+    "Aspect": "งาน",
+    "TH": "ย้ายงานบ่อย ไม่ค่อยถูกใจ บางครั้งอาจตกงาน",
+    "CH": "常换工作，不喜欢，有时可能会失去工作。",
+    "ENG": "Change jobs often, don't like it, sometimes you may lose your job."
+  },
+  {
+    "key": "m15",
+    "Aspect": "เงิน",
+    "TH": "เริ่มดีขึ้น",
+    "CH": "越来越好",
+    "ENG": "Getting better"
+  },
+  {
+    "key": "l15",
+    "Aspect": "รัก",
+    "TH": "มีการเปลี่ยนแปลงหรือแยกกันอยู่แต่ไม่เลิกรา",
+    "CH": "发生过变化或分离，但他们还没有分手。",
+    "ENG": "There have been changes or separation but they haven't broken up."
+  },
+  {
+    "key": "h15",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "强的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j15",
+    "Aspect": "อาชีพ",
+    "TH": "ถูกับการทำงานไม่อยู่กับที่ เช่น เซลท์แมน แอร์โฮสเตส สจ๊วต",
+    "CH": "与固定工作摩擦，如销售员、空姐、空中乘务员。",
+    "ENG": "Rubbing with stationary work, such as salesman, flight attendant, steward."
+  },
+  {
+    "key": "w16",
+    "Aspect": "งาน",
+    "TH": "งานเสี่ยง ผิดกฎหมาย งานลับๆ เปิดเผยไม่ได้ บ่อนการพนัน",
+    "CH": "危险性、非法工作、不能公开的秘密工作、赌博窝点",
+    "ENG": "Risky, illegal work, secret work that cannot be disclosed, gambling dens"
+  },
+  {
+    "key": "m16",
+    "Aspect": "เงิน",
+    "TH": "ได้อย่างไม่สุจริต",
+    "CH": "不诚实地",
+    "ENG": "Dishonestly"
+  },
+  {
+    "key": "l16",
+    "Aspect": "รัก",
+    "TH": "พาหนี แย่งของของคนอื่น อนุภรรยา",
+    "CH": "逃跑，偷别人的东西，小妾",
+    "ENG": "Escaping, stealing other people's things, concubine"
+  },
+  {
+    "key": "h16",
+    "Aspect": "สุขภาพ",
+    "TH": "ตัดมดลูก ต่อมลูกหมาก มะเร็ง เอดส์",
+    "CH": "子宫切除术、前列腺癌、艾滋病",
+    "ENG": "Hysterectomy, prostate cancer, AkeyS"
+  },
+  {
+    "key": "j16",
+    "Aspect": "อาชีพ",
+    "TH": "เจ้าของบาร์ ผับ อาบอบนวด สนุกเกอร์ เจ้ามือหวย บ่อนการพนัน เจ้ามือแชร์ ค้ายาเสพติด ค้าของหนีภาษี ค้าอาวุธเถื่อน",
+    "CH": "酒吧、酒馆、按摩店、斯诺克、彩票庄家、赌博窝点、股票预定者、毒贩、走私货物的老板。非法武器交易",
+    "ENG": "Owner of bars, pubs, massage parlors, snooker, lottery bookmakers, gambling dens, share bookers, drug dealers, smuggled goods. Illegal weapons trade"
+  },
+  {
+    "key": "w17",
+    "Aspect": "งาน",
+    "TH": "ธุรกิจเริ่มพัง อย่าริเริ่มงานใหม่",
+    "CH": "生意开始失败不要开始新工作。",
+    "ENG": "Business starts to fail. Don't start a new job."
+  },
+  {
+    "key": "m17",
+    "Aspect": "เงิน",
+    "TH": "ล้มละลายถูกฟ้อง",
+    "CH": "申请破产",
+    "ENG": "Bankruptcy filed"
+  },
+  {
+    "key": "l17",
+    "Aspect": "รัก",
+    "TH": "เลิกรา หย่าร้าง ทำร้ายกัน",
+    "CH": "分手、离婚、虐待",
+    "ENG": "Breakup, divorce, abuse"
+  },
+  {
+    "key": "h17",
+    "Aspect": "สุขภาพ",
+    "TH": "อุบัติเหตุทางรถยนต์ ถูกผ่าตัด ป่วยหนัก",
+    "CH": "车祸、手术、重病",
+    "ENG": "Car acckeyent, surgery, serious illness"
+  },
+  {
+    "key": "j17",
+    "Aspect": "อาชีพ",
+    "TH": "รถเช่า กินดอกเบี้ย",
+    "CH": "租车、利息",
+    "ENG": "Car rental, interest"
+  },
+  {
+    "key": "w18",
+    "Aspect": "งาน",
+    "TH": "เลือกงาน ชอบงานสบาย อาจตกงาน",
+    "CH": "选择一份工作，如果你喜欢这份工作，你可能会失去工作。",
+    "ENG": "Choose a job. If you like the job, it's comfortable. You might lose your job."
+  },
+  {
+    "key": "m18",
+    "Aspect": "เงิน",
+    "TH": "ไม่ขาดมือ",
+    "CH": "不缺钱",
+    "ENG": "There is no shortage of money."
+  },
+  {
+    "key": "l18",
+    "Aspect": "รัก",
+    "TH": "เลือกมาก ต้องพร้อมทุกอย่าง",
+    "CH": "有这么多选择，你必须做好一切准备。",
+    "ENG": "So much to choose from, you have to be ready for everything."
+  },
+  {
+    "key": "h18",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "强的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j18",
+    "Aspect": "อาชีพ",
+    "TH": "ก่อสร้างบ้าน ของประดับบ้าน ตกแต่งภายใน",
+    "CH": "房屋建筑、家居装饰、室内装饰",
+    "ENG": "Home construction, home decorations, interior decoration"
+  },
+  {
+    "key": "w19",
+    "Aspect": "งาน",
+    "TH": "โยกย้าย ลาออกเปลี่ยนงาน",
+    "CH": "调动、辞职、跳槽",
+    "ENG": "Transfer, resign, change jobs"
+  },
+  {
+    "key": "m19",
+    "Aspect": "เงิน",
+    "TH": "ถูกโกง มีหนี้สิน",
+    "CH": "被骗、欠债",
+    "ENG": "Cheated, in debt"
+  },
+  {
+    "key": "l19",
+    "Aspect": "รัก",
+    "TH": "เลิกรา หย่าร้าง",
+    "CH": "分手，离婚",
+    "ENG": "Break up, divorce"
+  },
+  {
+    "key": "h19",
+    "Aspect": "สุขภาพ",
+    "TH": "สภาพจิตเสีย วิตกกังวล เครียด",
+    "CH": "精神状态、焦虑、压力",
+    "ENG": "Mental state, anxiety, stress"
+  },
+  {
+    "key": "j19",
+    "Aspect": "อาชีพ",
+    "TH": "นายหน้าค้าที่ดิน บ้านเช่า",
+    "CH": "土地经纪人，房屋出租",
+    "ENG": "Land broker, house for rent"
+  },
+  {
+    "key": "w20",
+    "Aspect": "งาน",
+    "TH": "มั่นคง ได้ยศได้ตำแหน่ง",
+    "CH": "稳定，获得排名，获得位置",
+    "ENG": "Stable, get a rank, get a position"
+  },
+  {
+    "key": "m20",
+    "Aspect": "เงิน",
+    "TH": "ร่ำรวย",
+    "CH": "有利可图的",
+    "ENG": "Lucrative"
+  },
+  {
+    "key": "l20",
+    "Aspect": "รัก",
+    "TH": "พบคู่ฐานะร่ำรวย ได้แต่งงาน ได้บุตร",
+    "CH": "认识一对富有的夫妻，结婚，生子。",
+    "ENG": "Meet a wealthy couple, get married, have children."
+  },
+  {
+    "key": "h20",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "强的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j20",
+    "Aspect": "อาชีพ",
+    "TH": "ข้าราชการระดับนายพล นักการเมือง ทหาร ตำรวจ ผู้พิพากษา อัยการ ร.ม.ต. ป.ป.ช. วุฒิสภา ที่ปรึกษา",
+    "CH": "将军、政治家、士兵、警察、法官、检察官、中校、国家反腐败委员会、参议院、顾问等职级的公务员。",
+    "ENG": "Civil servants at the level of generals, politicians, soldiers, police, judges, prosecutors, Lieutenant Colonel, NACC, Senate, advisors."
+  },
+  {
+    "key": "w21",
+    "Aspect": "งาน",
+    "TH": "ได้ข่าวดีที่รอคอยและเป็นจริง",
+    "CH": "得到了我们一直在等待的好消息，这是真的。",
+    "ENG": "Got the good news that we've been waiting for and it's true."
+  },
+  {
+    "key": "m21",
+    "Aspect": "เงิน",
+    "TH": "ได้ข่าวดี ได้เงินที่รอคอย",
+    "CH": "收到好消息，我期待的钱到手了。",
+    "ENG": "Got good news, got the money I was waiting for."
+  },
+  {
+    "key": "l21",
+    "Aspect": "รัก",
+    "TH": "เปลี่ยนแปลงไปในทางดี สมหวัง",
+    "CH": "为美好和希望而改变",
+    "ENG": "Change for the good and hope"
+  },
+  {
+    "key": "h21",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "强的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j21",
+    "Aspect": "อาชีพ",
+    "TH": "การกุศลที่ไม่ได้รับผลประโยชน์ตอบแทน มูลนิธิป่อเต็กตึ้ง",
+    "CH": "不接受利益回报的慈善机构博德同基金会",
+    "ENG": "Charity that does not receive benefits in return Por Teck Tung Foundation"
+  },
+  {
+    "key": "w22",
+    "Aspect": "งาน",
+    "TH": "มั่นคง ได้ยศได้ตำแหน่ง",
+    "CH": "穩定，獲得排名，獲得位置",
+    "ENG": "Stable, get a rank, get a position"
+  },
+  {
+    "key": "m22",
+    "Aspect": "เงิน",
+    "TH": "ร่ำรวย",
+    "CH": "有利可圖的",
+    "ENG": "Lucrative"
+  },
+  {
+    "key": "l22",
+    "Aspect": "รัก",
+    "TH": "พบคู่ฐานะร่ำรวย ได้แต่งงาน ได้บุตร",
+    "CH": "认识一对富有的夫妻，结婚，生子。",
+    "ENG": "Meet a wealthy couple, get married, have children."
+  },
+  {
+    "key": "h22",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "强的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j22",
+    "Aspect": "อาชีพ",
+    "TH": "ข้าราชการระดับนายพล นักการเมือง ทหาร ตำรวจ ผู้พิพากษา อัยการ ร.ม.ต. ป.ป.ช. วุฒิสภา ที่ปรึกษา",
+    "CH": "将军、政治家、士兵、警察、法官、检察官、中校、国家反腐败委员会、参议院、顾问等职级的公务员。",
+    "ENG": "Civil servants at the level of generals, politicians, soldiers, police, judges, prosecutors, Lieutenant Colonel, NACC, Senate, advisors."
+  },
+  {
+    "key": "w23",
+    "Aspect": "งาน",
+    "TH": "ได้ข่าวดีที่รอคอยและเป็นจริง",
+    "CH": "得到了我们一直在等待的好消息，这是真的。",
+    "ENG": "Got the good news that we've been waiting for and it's true."
+  },
+  {
+    "key": "m23",
+    "Aspect": "เงิน",
+    "TH": "ได้ข่าวดี ได้เงินที่รอคอย",
+    "CH": "收到好消息，我期待的钱到手了。",
+    "ENG": "Got good news, got the money I was waiting for."
+  },
+  {
+    "key": "l23",
+    "Aspect": "รัก",
+    "TH": "เปลี่ยนแปลงไปในทางดี สมหวัง",
+    "CH": "为美好和希望而改变",
+    "ENG": "Change for the good and hope"
+  },
+  {
+    "key": "h23",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "强的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j23",
+    "Aspect": "อาชีพ",
+    "TH": "การกุศลที่ไม่ได้รับผลประโยชน์ตอบแทน มูลนิธิป่อเต็กตึ้ง",
+    "CH": "不获取利益回报的慈善机构博德同基金会",
+    "ENG": "Charity that does not receive benefits in return Por Teck Tung Foundation"
+  },
+  {
+    "key": "w24",
+    "Aspect": "งาน",
+    "TH": "มั่นคง ต้องเดินทางรอบโลก มีกิจการต่างประเทศ",
+    "CH": "穩定，必須環遊世界有涉外業務",
+    "ENG": "Stable, must travel around the world Have foreign business"
+  },
+  {
+    "key": "m24",
+    "Aspect": "เงิน",
+    "TH": "ร่ำรวยเป็นเศรษฐี",
+    "CH": "富有成為百萬富翁",
+    "ENG": "Rich to be a millionaire"
+  },
+  {
+    "key": "l24",
+    "Aspect": "รัก",
+    "TH": "สุข สมหวัง",
+    "CH": "快乐、充实",
+    "ENG": "Happy, fulfilled"
+  },
+  {
+    "key": "h24",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "强的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j24",
+    "Aspect": "อาชีพ",
+    "TH": "แอร์ สจ๊วต เกี่ยวกับการต่างประเทศทุกแขนง",
+    "CH": "空中乘務員處理所有外交事務",
+    "ENG": "Air Steward regarding all matters of foreign affairs"
+  },
+  {
+    "key": "w25",
+    "Aspect": "งาน",
+    "TH": "ก้าวไกล ชอบเสนอแนวคิดใหม่ๆ เสมอ เริ่มกิจการของตนเอง",
+    "CH": "來吧，總是喜歡提出新想法，開創自己的事業。",
+    "ENG": "Go ahead, always like to propose new keyeas, start your own business."
+  },
+  {
+    "key": "m25",
+    "Aspect": "เงิน",
+    "TH": "เริ่มดี",
+    "CH": "起步良好",
+    "ENG": "Starting well"
+  },
+  {
+    "key": "l25",
+    "Aspect": "รัก",
+    "TH": "เริ่มมีรัก",
+    "CH": "開始墜入愛河",
+    "ENG": "Starting to fall in love"
+  },
+  {
+    "key": "h25",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j25",
+    "Aspect": "อาชีพ",
+    "TH": "มีกิจการของตนเอง เป็นเจ้าของบริษัท นักธุรกิจ วิศวกร",
+    "CH": "擁有自己的事業公司老闆、商人、工程師",
+    "ENG": "Have your own business Company owner, businessman, engineer"
+  },
+  {
+    "key": "w26",
+    "Aspect": "งาน",
+    "TH": "เริ่มงานที่มั่นคง",
+    "CH": "開始一份穩定的工作",
+    "ENG": "Start a stable job"
+  },
+  {
+    "key": "m26",
+    "Aspect": "เงิน",
+    "TH": "ใช้เงินเก่ง แต่หาเก่ง",
+    "CH": "善於花錢，但善於賺錢",
+    "ENG": "Good at spending money, but good at earning"
+  },
+  {
+    "key": "l26",
+    "Aspect": "รัก",
+    "TH": "ต้องได้แม่หม้าย เป็นนักรักคนหนึ่ง",
+    "CH": "必須娶寡婦我是一個情人。",
+    "ENG": "Must get a wkeyow I'm a lover."
+  },
+  {
+    "key": "h26",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j26",
+    "Aspect": "อาชีพ",
+    "TH": "ทนาย นักธุรกิจ เป็นเจ้าของกิจการ",
+    "CH": "律師、商人、企業主",
+    "ENG": "Lawyer, businessman, business owner"
+  },
+  {
+    "key": "w27",
+    "Aspect": "งาน",
+    "TH": "มั่นคง เป็นเจ้าของกิจการ",
+    "CH": "穩定，有自己的事業",
+    "ENG": "Stable, owning a business"
+  },
+  {
+    "key": "m27",
+    "Aspect": "เงิน",
+    "TH": "คล่องตัว",
+    "CH": "靈活的",
+    "ENG": "Flexible"
+  },
+  {
+    "key": "l27",
+    "Aspect": "รัก",
+    "TH": "มั่นคงแต่ไม่โรแมนติก",
+    "CH": "堅定但不浪漫",
+    "ENG": "Firm but not romantic"
+  },
+  {
+    "key": "h27",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j27",
+    "Aspect": "อาชีพ",
+    "TH": "นายธนาคาร บ้านเช่า",
+    "CH": "銀行家的房子出租",
+    "ENG": "Banker house for rent"
+  },
+  {
+    "key": "w28",
+    "Aspect": "งาน",
+    "TH": "ต้องต่อสู้ช่วงชิง",
+    "CH": "必須戰鬥",
+    "ENG": "Must fight"
+  },
+  {
+    "key": "m28",
+    "Aspect": "เงิน",
+    "TH": "ได้มากใช้มาก",
+    "CH": "得到很多，使用很多",
+    "ENG": "Get a lot, use a lot"
+  },
+  {
+    "key": "l28",
+    "Aspect": "รัก",
+    "TH": "รักจริง",
+    "CH": "真正的愛情",
+    "ENG": "True love"
+  },
+  {
+    "key": "h28",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j28",
+    "Aspect": "อาชีพ",
+    "TH": "ทหาร ตำรวจ ศุลกากร พากปราบปราม นักกฎหมาย นักธุรกิจ ทนายความ",
+    "CH": "軍隊、警察、海關都在打壓律師、商人、律師。",
+    "ENG": "The military, police, customs are cracking down on lawyers, businessmen, lawyers."
+  },
+  {
+    "key": "w29",
+    "Aspect": "งาน",
+    "TH": "มั่นคง มีกิจการส่วนตัว",
+    "CH": "穩定，有自己的事業",
+    "ENG": "Stable, own business"
+  },
+  {
+    "key": "m29",
+    "Aspect": "เงิน",
+    "TH": "มีมาจากงานที่สามารถด้วยตนเอง",
+    "CH": "它來自可以手動完成的工作。",
+    "ENG": "It comes from work that can be done manually."
+  },
+  {
+    "key": "l29",
+    "Aspect": "รัก",
+    "TH": "คนอายุมาก หม้าย",
+    "CH": "老人、寡婦",
+    "ENG": "Old people, wkeyows"
+  },
+  {
+    "key": "h29",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j29",
+    "Aspect": "อาชีพ",
+    "TH": "มีกิจการส่วนตัว",
+    "CH": "擁有個人事業",
+    "ENG": "Have a personal business"
+  },
+  {
+    "key": "w30",
+    "Aspect": "งาน",
+    "TH": "มั่นคง",
+    "CH": "安全的",
+    "ENG": "Secure"
+  },
+  {
+    "key": "m30",
+    "Aspect": "เงิน",
+    "TH": "มีเสมอไม่ขาด",
+    "CH": "總有",
+    "ENG": "There is always"
+  },
+  {
+    "key": "l30",
+    "Aspect": "รัก",
+    "TH": "มีมากแต่เลือกมาก",
+    "CH": "有很多，但可供選擇的也很多。",
+    "ENG": "There are a lot, but there is a lot to choose from."
+  },
+  {
+    "key": "h30",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j30",
+    "Aspect": "อาชีพ",
+    "TH": "งานศิลปะทุกแขนง คุมการโรงแรม ร้านอาหาร อัญมณี",
+    "CH": "各類藝術、飯店管理、餐廳、珠寶",
+    "ENG": "All types of art, hotel management, restaurants, jewelry"
+  },
+  {
+    "key": "w31",
+    "Aspect": "งาน",
+    "TH": "มั่นคง",
+    "CH": "安全的",
+    "ENG": "Secure"
+  },
+  {
+    "key": "m31",
+    "Aspect": "เงิน",
+    "TH": "ร่ำรวย",
+    "CH": "有利可圖的",
+    "ENG": "Lucrative"
+  },
+  {
+    "key": "l31",
+    "Aspect": "รัก",
+    "TH": "คนมีอายุ",
+    "CH": "老人",
+    "ENG": "Old people"
+  },
+  {
+    "key": "h31",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j31",
+    "Aspect": "อาชีพ",
+    "TH": "ธุรกิจต่างๆ และที่ดิน",
+    "CH": "各種企業和土地",
+    "ENG": "Various businesses and land"
+  },
+  {
+    "key": "w32",
+    "Aspect": "งาน",
+    "TH": "ธุรกิจมั่นคง",
+    "CH": "業務穩定",
+    "ENG": "Stable business"
+  },
+  {
+    "key": "m32",
+    "Aspect": "เงิน",
+    "TH": "มีเสมอไม่ขาด",
+    "CH": "總有",
+    "ENG": "There is always"
+  },
+  {
+    "key": "l32",
+    "Aspect": "รัก",
+    "TH": "หย่าร้างแตกแยกมาจึงไม่รักใครง่ายๆ",
+    "CH": "離婚、分居，所以我不會輕易愛任何人。",
+    "ENG": "Divorced and separated, so I don't love anyone easily."
+  },
+  {
+    "key": "h32",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง (สุขภาพใจไม่ปกติสุข)",
+    "CH": "強（心理健康不正常）",
+    "ENG": "Strong (mental health is not normal)"
+  },
+  {
+    "key": "j32",
+    "Aspect": "อาชีพ",
+    "TH": "ธุรกิจส่วนตัว",
+    "CH": "個人生意",
+    "ENG": "Personal business"
+  },
+  {
+    "key": "w33",
+    "Aspect": "งาน",
+    "TH": "ชอบทดลอง ท้าทาย เดินทางเสมอ",
+    "CH": "總是喜歡嘗試、挑戰和旅行。",
+    "ENG": "Always like to experiment, challenge, and travel."
+  },
+  {
+    "key": "m33",
+    "Aspect": "เงิน",
+    "TH": "มีไม่ขาด",
+    "CH": "不缺。",
+    "ENG": "There's no shortage."
+  },
+  {
+    "key": "l33",
+    "Aspect": "รัก",
+    "TH": "เริ่มคิดรัก และอยากแต่งงาน",
+    "CH": "開始考慮愛情，想結婚。",
+    "ENG": "Starting to think about love and wanting to get married."
+  },
+  {
+    "key": "h33",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j33",
+    "Aspect": "อาชีพ",
+    "TH": "งานต้องเดินทางไกล เกี่ยวกับยานพาหนะ ย้ายไปอยู่ต่างถิ่น นักศึกษาได้ต่อต่างประเทศ",
+    "CH": "工作需要長途旅行。關於車輛搬到別的國家學生可以出國留學",
+    "ENG": "Work requires long distance travel. about vehicles Move to another country. Students can study abroad"
+  },
+  {
+    "key": "w34",
+    "Aspect": "งาน",
+    "TH": "เริ่มมั่นคง",
+    "CH": "趨於穩定",
+    "ENG": "Getting stable"
+  },
+  {
+    "key": "m34",
+    "Aspect": "เงิน",
+    "TH": "หาเก่งใช้เก่ง",
+    "CH": "善於發現，善於利用",
+    "ENG": "Good at finding, good at using"
+  },
+  {
+    "key": "l34",
+    "Aspect": "รัก",
+    "TH": "เริ่มมีรักใหม่ คิดแต่งงานและมีความสัมพันธ์ลึกซึ้ง",
+    "CH": "開始有新的愛情考慮結婚並建立深厚的關係。",
+    "ENG": "Starting to have new love Thinking of getting married and having a deep relationship."
+  },
+  {
+    "key": "h34",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j34",
+    "Aspect": "อาชีพ",
+    "TH": "เกี่ยวกัยการสร้างสรรค์และศิลปะของสวยงาม ศิลปิน",
+    "CH": "關於美麗事物的創作與藝術，藝術家",
+    "ENG": "Concerning the creation and art of beautiful things, artists"
+  },
+  {
+    "key": "w35",
+    "Aspect": "งาน",
+    "TH": "เกี่ยวกับธนาคาร สถาบันการเงิน",
+    "CH": "關於銀行金融機構",
+    "ENG": "About the bank financial institution"
+  },
+  {
+    "key": "m35",
+    "Aspect": "เงิน",
+    "TH": "ร่ำรวย",
+    "CH": "有利可圖的",
+    "ENG": "Lucrative"
+  },
+  {
+    "key": "l35",
+    "Aspect": "รัก",
+    "TH": "ครอบครัวเป็นสุข อบอุ่น",
+    "CH": "一家人幸福又溫馨。",
+    "ENG": "The family is happy and warm."
+  },
+  {
+    "key": "h35",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j35",
+    "Aspect": "อาชีพ",
+    "TH": "ออกเงินกู้ เป็นเจ้าของกิจการ",
+    "CH": "貸款，擁有一家企業",
+    "ENG": "Take out a loan, own a business"
+  },
+  {
+    "key": "w36",
+    "Aspect": "งาน",
+    "TH": "ดีด้วยตนเอง ต้องต่อสู้ทุกรูปแบบ",
+    "CH": "靠自己就好，你必須與各種形式奮戰。",
+    "ENG": "Good by yourself, you have to fight every form."
+  },
+  {
+    "key": "m36",
+    "Aspect": "เงิน",
+    "TH": "ได้ด้วยความลำบาก",
+    "CH": "有困難",
+    "ENG": "With difficulty"
+  },
+  {
+    "key": "l36",
+    "Aspect": "รัก",
+    "TH": "ผิดนัด ถูกหลอก เลิกรา หย่าร้าง",
+    "CH": "違約、被欺騙、分手、離婚。",
+    "ENG": "Defaulted, deceived, broken up, divorced."
+  },
+  {
+    "key": "h36",
+    "Aspect": "สุขภาพ",
+    "TH": "ปวดเมื่อยกระดูก แขนขา",
+    "CH": "骨頭、手臂和腿部疼痛",
+    "ENG": "Pain in bones, arms and legs"
+  },
+  {
+    "key": "j36",
+    "Aspect": "อาชีพ",
+    "TH": "ทำทุกอย่างเพราะเป็นคนอยู่นิ่งไม่ได้",
+    "CH": "做一切事情都是因為你是一個無法保持靜止的人。",
+    "ENG": "I do everything because I am a person who cannot stay still."
+  },
+  {
+    "key": "w37",
+    "Aspect": "งาน",
+    "TH": "ริเริ่มงานใหม่",
+    "CH": "開始新的工作",
+    "ENG": "Start a new job"
+  },
+  {
+    "key": "m37",
+    "Aspect": "เงิน",
+    "TH": "เริ่มดี",
+    "CH": "起步良好",
+    "ENG": "Starting well"
+  },
+  {
+    "key": "l37",
+    "Aspect": "รัก",
+    "TH": "รักแรกก็ว่าได้ริรัก",
+    "CH": "初戀才叫愛情。",
+    "ENG": "First love is called love."
+  },
+  {
+    "key": "h37",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j37",
+    "Aspect": "อาชีพ",
+    "TH": "ยังเรียนอยู่",
+    "CH": "還在研究",
+    "ENG": "Still studying"
+  },
+  {
+    "key": "w38",
+    "Aspect": "งาน",
+    "TH": "สำเร็จอย่างปาฎิหาริย์",
+    "CH": "奇蹟般地完成了",
+    "ENG": "Miraculously accomplished"
+  },
+  {
+    "key": "m38",
+    "Aspect": "เงิน",
+    "TH": "ดีมั่นคง",
+    "CH": "不錯，穩定",
+    "ENG": "Good, stable"
+  },
+  {
+    "key": "l38",
+    "Aspect": "รัก",
+    "TH": "ได้คู่ครองดี (เริ่มรัก)",
+    "CH": "找個好伴侶（開始戀愛）",
+    "ENG": "Get a good partner (start loving)"
+  },
+  {
+    "key": "h38",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j38",
+    "Aspect": "อาชีพ",
+    "TH": "ยังเรียนอยู่",
+    "CH": "還在研究",
+    "ENG": "Still studying"
+  },
+  {
+    "key": "w39",
+    "Aspect": "งาน",
+    "TH": "มั่นคง",
+    "CH": "安全的",
+    "ENG": "Secure"
+  },
+  {
+    "key": "m39",
+    "Aspect": "เงิน",
+    "TH": "ดีขึ้นตามลำดับ",
+    "CH": "逐漸好起來",
+    "ENG": "Progressively better"
+  },
+  {
+    "key": "l39",
+    "Aspect": "รัก",
+    "TH": "เริ่มก่อตัว",
+    "CH": "開始形成",
+    "ENG": "Beginning to form"
+  },
+  {
+    "key": "h39",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j39",
+    "Aspect": "อาชีพ",
+    "TH": "ยังเรียนอยู่และมีอาชีพด้วยตนเองตั้งแต่เล็ก",
+    "CH": "從小就還在讀書，有自己的事業。",
+    "ENG": "Still studying and having a career of my own since I was young."
+  },
+  {
+    "key": "w40",
+    "Aspect": "งาน",
+    "TH": "มีอุปสรรคจากบริวารและเด็กๆ",
+    "CH": "有來自家庭成員和孩子的障礙。",
+    "ENG": "There are obstacles from family members and children."
+  },
+  {
+    "key": "m40",
+    "Aspect": "เงิน",
+    "TH": "รั่วไหล",
+    "CH": "洩漏",
+    "ENG": "Leak"
+  },
+  {
+    "key": "l40",
+    "Aspect": "รัก",
+    "TH": "จากกันไม่ได้อยู่ด้วยกัน",
+    "CH": "我們分開了，我們又不在一起了。",
+    "ENG": "We're apart and we're not together."
+  },
+  {
+    "key": "h40",
+    "Aspect": "สุขภาพ",
+    "TH": "ระวังกระดูกหัก",
+    "CH": "小心骨折。",
+    "ENG": "Be careful of broken bones."
+  },
+  {
+    "key": "j40",
+    "Aspect": "อาชีพ",
+    "TH": "ยังเรียนอยู่",
+    "CH": "還在研究",
+    "ENG": "Still studying"
+  },
+  {
+    "key": "w41",
+    "Aspect": "งาน",
+    "TH": "เป็นเจ้าของโรงงานมั่นคง กิจการของตัวเอง เกี่ยวข้องกับต่างประเทศ",
+    "CH": "擁有穩定的工廠自己的事與外國有關",
+    "ENG": "Own a stable factory, own business related to foreign countries"
+  },
+  {
+    "key": "m41",
+    "Aspect": "เงิน",
+    "TH": "ได้จากธุรกิจมั่นคง",
+    "CH": "從穩定的業務中獲益",
+    "ENG": "Gained from a stable business"
+  },
+  {
+    "key": "l41",
+    "Aspect": "รัก",
+    "TH": "คิดแต่งงาน",
+    "CH": "考慮結婚嗎？",
+    "ENG": "Thinking of getting married?"
+  },
+  {
+    "key": "h41",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j41",
+    "Aspect": "อาชีพ",
+    "TH": "มีกิจการของตนเอง",
+    "CH": "擁有自己的事業",
+    "ENG": "Have your own business"
+  },
+  {
+    "key": "w42",
+    "Aspect": "งาน",
+    "TH": "ได้งานใหม่ มั่นคง",
+    "CH": "找到了一份新的、穩定的工作。",
+    "ENG": "Got a new, stable job."
+  },
+  {
+    "key": "m42",
+    "Aspect": "เงิน",
+    "TH": "ได้ปรับ – ขึ้นเงินเดือน",
+    "CH": "調整了——加薪",
+    "ENG": "Got an adjustment - salary increase"
+  },
+  {
+    "key": "l42",
+    "Aspect": "รัก",
+    "TH": "พบรักใหม่ถ้าแต่งงานแล้วครอบครัวเป็นสุข",
+    "CH": "如果你結婚了並且你的家庭幸福，那就找到新的愛情。",
+    "ENG": "Find new love if you get married and your family is happy."
+  },
+  {
+    "key": "h42",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j42",
+    "Aspect": "อาชีพ",
+    "TH": "โรงแรม บ้านเช่า โมเต็ล ร้านอาหาร ร้านอัญมณี เสื้อผ้าสำเร็จรูป ของสวยงาม มีกิจการของตัวเอง",
+    "CH": "旅館、出租屋、汽車旅館、餐廳、珠寶店、成衣、漂亮物品，都有自己的生意。",
+    "ENG": "Hotels, rental houses, motels, restaurants, jewelry stores, ready-to-wear clothing, etc."
+  },
+  {
+    "key": "w43",
+    "Aspect": "งาน",
+    "TH": "เริ่มเป็นเจ้าของกิจการที่มั่นคง",
+    "CH": "開始擁有穩定的生意",
+    "ENG": "Start owning a stable business"
+  },
+  {
+    "key": "m43",
+    "Aspect": "เงิน",
+    "TH": "ร่ำรวย",
+    "CH": "有利可圖的",
+    "ENG": "Lucrative"
+  },
+  {
+    "key": "l43",
+    "Aspect": "รัก",
+    "TH": "พบนาง-ชายในฝัน ได้แต่งงาน ได้หมั่นหมาย",
+    "CH": "遇見您夢想中的女人和男人，結婚，訂婚。",
+    "ENG": "Meet the woman and man of your dreams, get married, get engaged."
+  },
+  {
+    "key": "h43",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j43",
+    "Aspect": "อาชีพ",
+    "TH": "ค้าเครื่องประดับ อัญมณี นำเข้า-ส่งออก กิจการโรงแรม อาหาร ขนม",
+    "CH": "珠寶貿易、Anmaree、進出口、飯店業務、食品、甜點",
+    "ENG": "Jewelry trading, Anmaree, import-export, hotel business, food, desserts"
+  },
+  {
+    "key": "w44",
+    "Aspect": "งาน",
+    "TH": "ตัดสินใจแล้วสำเร็จ ต้องกล้าได้กล้าเสีย",
+    "CH": "決定並成功你必須勇敢。",
+    "ENG": "Deckeyed and succeeded. You have to be brave."
+  },
+  {
+    "key": "m44",
+    "Aspect": "เงิน",
+    "TH": "มีไม่มาก แต่กล้าได้กล้าเสีย อาจไม่รวย",
+    "CH": "雖然數量不多，但他們很勇敢，而且可能並不富有。",
+    "ENG": "There aren't many, but they are brave and might not be rich."
+  },
+  {
+    "key": "l44",
+    "Aspect": "รัก",
+    "TH": "ไม่อยากผูกพัน เอาแต่ใจ",
+    "CH": "我不想被束縛。",
+    "ENG": "I don't want to be tied down. I'm spoiled."
+  },
+  {
+    "key": "h44",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j44",
+    "Aspect": "อาชีพ",
+    "TH": "ค้าอาวุธ และฝ่ายปราบปราม",
+    "CH": "武器貿易和鎮壓",
+    "ENG": "Arms trade and suppression"
+  },
+  {
+    "key": "w45",
+    "Aspect": "งาน",
+    "TH": "ต้องมีหุ้นส่วน มีคู่คิด",
+    "CH": "一定要有夥伴，要有夥伴。",
+    "ENG": "Must have a partner, have a partner."
+  },
+  {
+    "key": "m45",
+    "Aspect": "เงิน",
+    "TH": "อาจไม่พอใช้ มีพอประมาณ (เพิ่มเริ่มมี)",
+    "CH": "可能不夠用，但已經足夠了（開始增加）。",
+    "ENG": "There may not be enough to use, but there is enough (starting to increase)."
+  },
+  {
+    "key": "l45",
+    "Aspect": "รัก",
+    "TH": "อย่าคิดจับปลาสองมือ ต้องสับหลีประจำ เริ่มคิดมีครอบครัว",
+    "CH": "想用兩隻手抓魚就別想了。必須定期更換開始考慮組建家庭",
+    "ENG": "Don't even think about catching a fish with two hands. Must change regularly, starting to think about having a family"
+  },
+  {
+    "key": "h45",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j45",
+    "Aspect": "อาชีพ",
+    "TH": "มีกิจการของตัวเองมี 2 หุ้น",
+    "CH": "用2股擁有自己的生意。",
+    "ENG": "Have your own business with 2 shares."
+  },
+  {
+    "key": "w46",
+    "Aspect": "งาน",
+    "TH": "ต้องวิ่งเต้นหาจึงจะมีมา",
+    "CH": "你必須遊說才能找到它。",
+    "ENG": "You have to lobby to find it."
+  },
+  {
+    "key": "m46",
+    "Aspect": "เงิน",
+    "TH": "ได้จากค่านายหน้า",
+    "CH": "從佣金中賺取",
+    "ENG": "Earned from commission"
+  },
+  {
+    "key": "l46",
+    "Aspect": "รัก",
+    "TH": "หมั้นหมาย กลับคืนดีกัน ข่าวการแต่งงานจะเป็นจริง พบเพื่อนต่างเพศที่ดี ได้แต่งงาน (ต้องดูไพ้ประกบ)",
+    "CH": "訂婚、複合、結婚的消息即將成真。認識了好異性朋友，結婚了（一定要看牌）",
+    "ENG": "Engaged, reconciled, news of marriage will come true. Met good friends of the opposite sex, got married (must look at the cards)"
+  },
+  {
+    "key": "h46",
+    "Aspect": "สุขภาพ",
+    "TH": "ดีวัน ดีคืน",
+    "CH": "早安，晚安",
+    "ENG": "Good day, good night"
+  },
+  {
+    "key": "j46",
+    "Aspect": "อาชีพ",
+    "TH": "นายหน้า และมี 2 หุ้น",
+    "CH": "經紀人並擁有2股",
+    "ENG": "Broker and has 2 shares"
+  },
+  {
+    "key": "w47",
+    "Aspect": "งาน",
+    "TH": "พบคู่แข่งที่ทัดเทียม สูสี ต้องทำสัญญาไม่พูดปากเปล่า",
+    "CH": "當你遇到平等且接近的競爭對手時，你必須簽訂非語言契約。",
+    "ENG": "When you meet a competitor who is equal and close, you must make a non-verbal contract."
+  },
+  {
+    "key": "m47",
+    "Aspect": "เงิน",
+    "TH": "พบอุปสรรคก่อนได้เงิน",
+    "CH": "收款前遇到障礙",
+    "ENG": "Encountered obstacles before receiving money"
+  },
+  {
+    "key": "l47",
+    "Aspect": "รัก",
+    "TH": "ไม่ลงรอยกัน ระหองระแหง แต่ไม่เลิกกัน",
+    "CH": "我們不同意，我們爭論，但我們不會分手。",
+    "ENG": "We disagree, we argue, but we don't break up."
+  },
+  {
+    "key": "h47",
+    "Aspect": "สุขภาพ",
+    "TH": "ทุกข์ใจมากกว่าทุกข์กาย",
+    "CH": "精神上的痛苦比肉體上的痛苦更重要",
+    "ENG": "Mental suffering is more than physical suffering"
+  },
+  {
+    "key": "j47",
+    "Aspect": "อาชีพ",
+    "TH": "วิ่งเต้นเป็นนายหน้า",
+    "CH": "作為經紀人進行遊說",
+    "ENG": "Lobbying as a broker"
+  },
+  {
+    "key": "w48",
+    "Aspect": "งาน",
+    "TH": "ตัดสินใจไม่ถูก ต้องเซ็นสัญญา",
+    "CH": "拿不定主意必須簽訂合約",
+    "ENG": "Can't make up my mind. Must sign a contract"
+  },
+  {
+    "key": "m48",
+    "Aspect": "เงิน",
+    "TH": "ขัดข้อง ถูกโกง กู้ยืม ถูกฟ้อง",
+    "CH": "擾亂、欺騙、借貸、被起訴",
+    "ENG": "Disruption, cheating, borrowing, being sued"
+  },
+  {
+    "key": "l48",
+    "Aspect": "รัก",
+    "TH": "ไม่เลิก แต่คิดกันคนละทาง ไม่ลงรอยกัน",
+    "CH": "他們沒有分手，只是對彼此的想法不同，彼此不認同。",
+    "ENG": "They dkeyn't break up, but thought of each other in different ways, not agreeing with each other."
+  },
+  {
+    "key": "h48",
+    "Aspect": "สุขภาพ",
+    "TH": "ป่วย เครียดเข้าโรงพยาบาล",
+    "CH": "生病了，壓力大，去了醫院",
+    "ENG": "Sick and stressed, went to the hospital"
+  },
+  {
+    "key": "j48",
+    "Aspect": "อาชีพ",
+    "TH": "ต้องลงทุนคนเดียว",
+    "CH": "必須單獨投資",
+    "ENG": "Must invest alone"
+  },
+  {
+    "key": "w49",
+    "Aspect": "งาน",
+    "TH": "มีมาไม่ขาด",
+    "CH": "你必須遊說並會見人們。",
+    "ENG": "You have to lobby and meet people."
+  },
+  {
+    "key": "m49",
+    "Aspect": "เงิน",
+    "TH": "ต้องวิ่งเต้น พบปะผู้คน",
+    "CH": "不乏。",
+    "ENG": "There is no shortage."
+  },
+  {
+    "key": "l49",
+    "Aspect": "รัก",
+    "TH": "กลับคืนดี แต่งงานแล้วได้บุตร",
+    "CH": "和好如初，結婚生子。",
+    "ENG": "Reconciled, married and had children."
+  },
+  {
+    "key": "h49",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j49",
+    "Aspect": "อาชีพ",
+    "TH": "นายหน้า งานโฆษณา นายประกัน เซลส์แมน",
+    "CH": "經紀人、廣告工作、保險代理人、推銷員",
+    "ENG": "Broker, advertising work, insurance agent, salesman"
+  },
+  {
+    "key": "w50",
+    "Aspect": "งาน",
+    "TH": "ขยายงานได้ ติดต่อมีผลสำเร็จ มีคนสนับสนุน ติดต่อเพศตรงข้าม",
+    "CH": "你可以拓展你的工作，擁有成功的人脈，有人支持你，接觸異性。",
+    "ENG": "You can expand your work, have successful contacts, have people supporting you, contact people of the opposite sex."
+  },
+  {
+    "key": "m50",
+    "Aspect": "เงิน",
+    "TH": "ไม่ขาดมือ",
+    "CH": "永遠不會缺手",
+    "ENG": "Never run out of hands"
+  },
+  {
+    "key": "l50",
+    "Aspect": "รัก",
+    "TH": "พบรัก คืนดี แต่งงาน มีมิตรดี (เพศตรงข้าม) ได้บุตร ได้หมั้นหมาย",
+    "CH": "尋找愛情、和解、結婚、擁有好朋友（異性）、生孩子、訂婚。",
+    "ENG": "Find love, reconcile, get married, have good friends (of the opposite sex), have children, get engaged."
+  },
+  {
+    "key": "h50",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j50",
+    "Aspect": "อาชีพ",
+    "TH": "งานเกี่ยวกับของสวยงาม อาหาร ดอกไม้ เสื้อผ้าสำเร็จรูป",
+    "CH": "與美麗的事物、食物、花朵、成衣相關的工作。",
+    "ENG": "Work related to beautiful things, food, flowers, ready-made clothes."
+  },
+  {
+    "key": "w51",
+    "Aspect": "งาน",
+    "TH": "ทำงานน้อย ได้เงินมาก มีผู้สนับสนุน",
+    "CH": "做一點工作，得到很多錢，得到支持。",
+    "ENG": "Work a little, get a lot of money, have support."
+  },
+  {
+    "key": "m51",
+    "Aspect": "เงิน",
+    "TH": "มีไม่ขาดมีมากว่าที่คิด",
+    "CH": "並不缺少，而是比你想像的更多。",
+    "ENG": "There's not a shortage, there's more than you think."
+  },
+  {
+    "key": "l51",
+    "Aspect": "รัก",
+    "TH": "ได้สตรีร่ำรวย",
+    "CH": "找個有錢的女人",
+    "ENG": "Get a rich woman"
+  },
+  {
+    "key": "h51",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j51",
+    "Aspect": "อาชีพ",
+    "TH": "งานฝีมือ เสื้อผ้าสำเร็จรูป ดอกไม้ อาหาร อัญมณี",
+    "CH": "手工藝品、成衣、鮮花、食物、珠寶。",
+    "ENG": "Handicrafts, ready-made clothing, flowers, food, jewelry."
+  },
+  {
+    "key": "w52",
+    "Aspect": "งาน",
+    "TH": "มีปัญหากับเพื่อนร่วมงาน มีอุปสรรคยากแก่การประนีประนอม",
+    "CH": "與同事有問題妥協存在困難的障礙。",
+    "ENG": "Having problems with co-workers There are difficult obstacles to compromise."
+  },
+  {
+    "key": "m52",
+    "Aspect": "เงิน",
+    "TH": "เงินขาดมือ ถูกโกงแชร์",
+    "CH": "缺錢，被騙，分享",
+    "ENG": "Lack of money, cheated and shared"
+  },
+  {
+    "key": "l52",
+    "Aspect": "รัก",
+    "TH": "เสียน้ำตาเพื่อคนรัก รักไม่ซื่อสัตย์ รักสามเส้า น้ำตาตกใน",
+    "CH": "為所愛的人流淚不忠的愛情，三角戀，淚流滿面",
+    "ENG": "Shedding tears for the one you love Unfaithful love, love triangle, tears falling inskeye."
+  },
+  {
+    "key": "h52",
+    "Aspect": "สุขภาพ",
+    "TH": "เสียเงินจากสุขภาพของตัวเองและญาติพี่น้อง โรคหัวใจ โรคภูมิแพ้ โรคปอด",
+    "CH": "把錢浪費在自己和親戚的健康、心臟病、過敏、肺部。",
+    "ENG": "Wasting money on your own health and that of your relatives, heart disease, allergies, lung disease."
+  },
+  {
+    "key": "j52",
+    "Aspect": "อาชีพ",
+    "TH": "ทนายความ หมอผ่าตัด",
+    "CH": "律師、外科醫生",
+    "ENG": "Lawyer, surgeon"
+  },
+  {
+    "key": "w53",
+    "Aspect": "งาน",
+    "TH": "ก่อตั้งบริษัทมั่นคง ขยายงาน 4 หุ้น",
+    "CH": "建立穩定的公司，將工作範圍擴大到4檔股票",
+    "ENG": "Established a stable company, expanded work to 4 stocks"
+  },
+  {
+    "key": "m53",
+    "Aspect": "เงิน",
+    "TH": "ดีขึ้น หยิบง่าย จ่ายคล่อง",
+    "CH": "更好，取貨方便，付款方便",
+    "ENG": "Better, easy to pick up, easy to pay"
+  },
+  {
+    "key": "l53",
+    "Aspect": "รัก",
+    "TH": "เป็นสุข มั่นคง ได้บุตร",
+    "CH": "快樂、穩定、有孩子",
+    "ENG": "Happy, stable, have children"
+  },
+  {
+    "key": "h53",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j53",
+    "Aspect": "อาชีพ",
+    "TH": "มีกิจการของตนเอง",
+    "CH": "擁有自己的事業",
+    "ENG": "Have your own business"
+  },
+  {
+    "key": "w54",
+    "Aspect": "งาน",
+    "TH": "ต้องข้ามขั้นตอน กฎเกณฑ์มาก เคร่งครัด",
+    "CH": "您必須跳過許多步驟和嚴格的規則。",
+    "ENG": "You have to skip many steps and strict rules."
+  },
+  {
+    "key": "m54",
+    "Aspect": "เงิน",
+    "TH": "ได้ก้อนใหญ่",
+    "CH": "有一個大腫塊",
+    "ENG": "Got a big lump"
+  },
+  {
+    "key": "l54",
+    "Aspect": "รัก",
+    "TH": "ได้ที่ไม่ถูกใจ จึงอยู่ไปโดยเบื่อหน่าย ซังกะตายต่อไป แต่ไม่เลิกรา",
+    "CH": "我得到了一些我不喜歡的東西。於是他就活在無聊中。亨伯繼續前進，但並沒有放棄。",
+    "ENG": "I got something that I dkeyn't like. So he lived in boredom. The Humber continues but does not give up."
+  },
+  {
+    "key": "h54",
+    "Aspect": "สุขภาพ",
+    "TH": "ใจหงุดหงิด ป่วยใจ",
+    "CH": "我很生氣，我生病了。",
+    "ENG": "I'm irritated, I'm sick."
+  },
+  {
+    "key": "j54",
+    "Aspect": "อาชีพ",
+    "TH": "ขายของสวยงาม อาหาร",
+    "CH": "賣漂亮的東西，食物",
+    "ENG": "Selling beautiful things, food"
+  },
+  {
+    "key": "w55",
+    "Aspect": "งาน",
+    "TH": "มั่นคง ต้องร่วมหุ้น ไม่อยากลงทุนแต่อยากได้",
+    "CH": "穩定，不想投資但又想入股。",
+    "ENG": "Stable, must join in shares. Don't want to invest but want to."
+  },
+  {
+    "key": "m55",
+    "Aspect": "เงิน",
+    "TH": "ค่อนข้างตระหนี่ คิดแต่ผลประโยชน์ฝ่ายเดียว",
+    "CH": "相當小氣只考慮一方的利益。",
+    "ENG": "Quite stingy Think only of one skeye's benefits."
+  },
+  {
+    "key": "l55",
+    "Aspect": "รัก",
+    "TH": "ต้องพร้อมด้วยเงิน บ้าน รถ ถึงจะ OK",
+    "CH": "一定要準備好錢、房子、車子才可以。",
+    "ENG": "Must be ready with money, house, and car to be OK."
+  },
+  {
+    "key": "h55",
+    "Aspect": "สุขภาพ",
+    "TH": "สุขกาย สบายใจ",
+    "CH": "健康舒適",
+    "ENG": "Healthy and comfortable"
+  },
+  {
+    "key": "j55",
+    "Aspect": "อาชีพ",
+    "TH": "เงินกู้",
+    "CH": "貸款",
+    "ENG": "Loan"
+  },
+  {
+    "key": "w56",
+    "Aspect": "งาน",
+    "TH": "พยุงของเก่า อย่าเริ่มใหม่",
+    "CH": "支持舊的，不要重新開始。",
+    "ENG": "Support the old, don't start over."
+  },
+  {
+    "key": "m56",
+    "Aspect": "เงิน",
+    "TH": "ขาดมือ ถูกโกง มีหนี้สิน",
+    "CH": "缺人手、被騙、欠債",
+    "ENG": "Lack of hands, cheated, in debt"
+  },
+  {
+    "key": "l56",
+    "Aspect": "รัก",
+    "TH": "มีปากเสียง ทะเลาะวิวาท แต่ยังไม่เลิก บอบช้ำสุดๆ",
+    "CH": "有過爭吵，有爭吵，但仍然沒有停止，非常痛苦。",
+    "ENG": "There were arguments and quarrels, but it still hasn't stopped. It's extremely painful."
+  },
+  {
+    "key": "h56",
+    "Aspect": "สุขภาพ",
+    "TH": "เข้าโรงพยาบาล ระวังอุบัติเหตุ กระดูก เส้น เอ็น กล้ามเนื้อ",
+    "CH": "進入醫院小心意外、骨頭、筋腱、肌肉。",
+    "ENG": "Enter the hospital Be careful of acckeyents, bones, tendons, muscles."
+  },
+  {
+    "key": "j56",
+    "Aspect": "อาชีพ",
+    "TH": "คลินิก รักษาพยาบาล",
+    "CH": "醫療診所",
+    "ENG": "Medical clinic"
+  },
+  {
+    "key": "w57",
+    "Aspect": "งาน",
+    "TH": "มีการขัดแย้ง มีอุปสรรค ติดขัด อาจเปลี่ยนงาน สมัครงานยังไม่ได้งาน",
+    "CH": "會有衝突、障礙、幹擾，你可能會換工作。 申請了工作但尚未得到工作",
+    "ENG": "There will be conflicts, obstacles, disruptions, and you may change jobs. Applied for a job but haven't gotten the job yet"
+  },
+  {
+    "key": "m57",
+    "Aspect": "เงิน",
+    "TH": "ติดขัด สะดุด",
+    "CH": "卡住，絆倒",
+    "ENG": "Stuck, stumbling"
+  },
+  {
+    "key": "l57",
+    "Aspect": "รัก",
+    "TH": "เริ่มขัดแย้งไม่ลงรอย",
+    "CH": "開始爭論和不同意。",
+    "ENG": "Starting to argue and disagree."
+  },
+  {
+    "key": "h57",
+    "Aspect": "สุขภาพ",
+    "TH": "ใจร้าวราน หงุดหงิด",
+    "CH": "惱怒，惱怒",
+    "ENG": "Irritated, irritated"
+  },
+  {
+    "key": "j57",
+    "Aspect": "อาชีพ",
+    "TH": "ต้องทำกิจการของตัวเอง",
+    "CH": "你必須做你自己的事。",
+    "ENG": "You have to do your own business."
+  },
+  {
+    "key": "w58",
+    "Aspect": "งาน",
+    "TH": "หุ้นส่วนดีจาก ถอนหุ้น ขาดทุนล้มละลาย",
+    "CH": "好夥伴不撤股、虧錢、破產",
+    "ENG": "Good partners from withdrawing shares, losing money, going bankrupt"
+  },
+  {
+    "key": "m58",
+    "Aspect": "เงิน",
+    "TH": "ฝืดเคือง ติดขัด",
+    "CH": "僵硬、卡住",
+    "ENG": "Stiff, stuck"
+  },
+  {
+    "key": "l58",
+    "Aspect": "รัก",
+    "TH": "เลิกรา หย่าร้าง คู่ตายจาก อกหัก ไม่สมหวัง",
+    "CH": "分手、離婚、伴侶過世、心碎、單相思",
+    "ENG": "Breakup, divorce, death of a partner, heartbreak, unrequited"
+  },
+  {
+    "key": "h58",
+    "Aspect": "สุขภาพ",
+    "TH": "ทรุดโทรมกำลังกายและใจ",
+    "CH": "體力和精神力下降",
+    "ENG": "Deteriorated physical and mental strength"
+  },
+  {
+    "key": "j58",
+    "Aspect": "อาชีพ",
+    "TH": "ส่วนตัว แก้ดวงซื้อโลงศพให้มูลนิธิ",
+    "CH": "個人恢復運氣，買棺材給基金會",
+    "ENG": "Personal Recover your luck and buy a coffin for the foundation"
+  },
+  {
+    "key": "w59",
+    "Aspect": "งาน",
+    "TH": "ทำไปอย่างเช้าชามเย็นชาม ถูกโกง อาจล้มละลาย",
+    "CH": "就像早上喝一碗冷水一樣，一旦被騙，你可能會破產。",
+    "ENG": "Do it like a bowl of cold water in the morning. If you get cheated, you might go bankrupt."
+  },
+  {
+    "key": "m59",
+    "Aspect": "เงิน",
+    "TH": "ขาดทุน ขายขาดทุนก็ต้องขาย",
+    "CH": "虧本，虧本賣就必須賣。",
+    "ENG": "At a loss, if you sell at a loss, you must sell."
+  },
+  {
+    "key": "l59",
+    "Aspect": "รัก",
+    "TH": "ไม่สมหวังต้องตามตื้ด",
+    "CH": "未完成，必須繼續關注",
+    "ENG": "Unfulfilled, must keep following"
+  },
+  {
+    "key": "h59",
+    "Aspect": "สุขภาพ",
+    "TH": "ใจย่ำแย่ เพราะต้องประคองคนอื่น",
+    "CH": "我的心很脆弱，因為我必須支持別人。",
+    "ENG": "My heart is weak because I have to support other people."
+  },
+  {
+    "key": "j59",
+    "Aspect": "อาชีพ",
+    "TH": "นายทุน (ตามทวงดอกเบี้ย)",
+    "CH": "資本家（索取利息）",
+    "ENG": "Capitalist (asks for interest)"
+  },
+  {
+    "key": "w60",
+    "Aspect": "งาน",
+    "TH": "เริ่มขัดแย้งเพราะชอบใหญ่",
+    "CH": "他們開始爭論，因為他們很喜歡他們。",
+    "ENG": "They start to argue because they like them a lot."
+  },
+  {
+    "key": "m60",
+    "Aspect": "เงิน",
+    "TH": "ขาดมือ",
+    "CH": "用光了",
+    "ENG": "Run out of"
+  },
+  {
+    "key": "l60",
+    "Aspect": "รัก",
+    "TH": "ไม่ลงรอย ผู้ใหญ่ขัดขวาง ไม่เห็นด้วย",
+    "CH": "不同意，大人打斷，不同意。",
+    "ENG": "Disagreement, adults interrupt, disagree."
+  },
+  {
+    "key": "h60",
+    "Aspect": "สุขภาพ",
+    "TH": "เครียด ใช้สมองมาก",
+    "CH": "壓力大，用腦多",
+    "ENG": "Stressed out, using a lot of brain"
+  },
+  {
+    "key": "j60",
+    "Aspect": "อาชีพ",
+    "TH": "ค้าขายเถื่อน เจ้ามือหวย ค้าอาวุธเถื่อน ของหนีภาษี ระวังโรคไมเกรน",
+    "CH": "非法貿易、彩票莊家、非法武器、走私貨物 小心偏頭痛。",
+    "ENG": "Illegal trade, lottery bookmakers, illegal weapons, smuggled goods. Be careful of migraines"
+  },
+  {
+    "key": "w61",
+    "Aspect": "งาน",
+    "TH": "ได้ตำแหน่งสู่เส้นชัยอย่าง 100% เต็ม",
+    "CH": "獲得 100% 滿員到達終點線的位置。",
+    "ENG": "Get a position to the finish line 100% full."
+  },
+  {
+    "key": "m61",
+    "Aspect": "เงิน",
+    "TH": "มีเข้ามาตามครรลอง",
+    "CH": "它是按照模式進來的。",
+    "ENG": "It came in according to the pattern."
+  },
+  {
+    "key": "l61",
+    "Aspect": "รัก",
+    "TH": "สุข สมหวัง",
+    "CH": "快樂、充實",
+    "ENG": "Happy, fulfilled"
+  },
+  {
+    "key": "h61",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j61",
+    "Aspect": "อาชีพ",
+    "TH": "เจ้าของกิจการ",
+    "CH": "業主",
+    "ENG": "Business owner"
+  },
+  {
+    "key": "w62",
+    "Aspect": "งาน",
+    "TH": "อาจต้องกลับมาสะสางงานเก่า กลับมาทำงานที่เก่า",
+    "CH": "你可能必須回來清理舊工作。回到老地方工作。",
+    "ENG": "You may have to come back and clean up old work. Come back to work at the old place."
+  },
+  {
+    "key": "m62",
+    "Aspect": "เงิน",
+    "TH": "เป็นช่วงทวงถามหนี้เก่าได้",
+    "CH": "現在是收回舊債的時候了。",
+    "ENG": "It is a time to collect old debts."
+  },
+  {
+    "key": "l62",
+    "Aspect": "รัก",
+    "TH": "อาจกลับคืนดีกับคนรักเก่า หรือพบคนรักเก่าที่เคยมองข้ามไป (ถ่านไฟเก่านั้นเอง)",
+    "CH": "你可能會與舊情人和好。或是遇見被忽視的舊情人（那古老的火）",
+    "ENG": "You may reconcile with your old lover. Or meet an old lover who was overlooked (That old fire)"
+  },
+  {
+    "key": "h62",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強壯的雙腿",
+    "ENG": "Strong legs"
+  },
+  {
+    "key": "j62",
+    "Aspect": "อาชีพ",
+    "TH": "ร้านอาหาร เสริมสวย อัญมณี ร้านดอกไม้",
+    "CH": "餐廳、美容院、珠寶、花店",
+    "ENG": "Restaurant, beauty salon, jewelry, flower shop"
+  },
+  {
+    "key": "w63",
+    "Aspect": "งาน",
+    "TH": "ได้รับความช่วยเหลือจากทุกฝ่าย",
+    "CH": "獲得各方協助",
+    "ENG": "Receive help from all skeyes"
+  },
+  {
+    "key": "m63",
+    "Aspect": "เงิน",
+    "TH": "ได้รับการสนับสนุนจากธนาคาร",
+    "CH": "銀行支持",
+    "ENG": "Supported by the bank"
+  },
+  {
+    "key": "l63",
+    "Aspect": "รัก",
+    "TH": "สุขสมหวังเพราะทุ่มเงิน",
+    "CH": "幸福因為花錢而充實",
+    "ENG": "Happiness is fulfilled because of spending money"
+  },
+  {
+    "key": "h63",
+    "Aspect": "สุขภาพ",
+    "TH": "ดีวันดีคืน",
+    "CH": "早安，晚安",
+    "ENG": "Good day, good night"
+  },
+  {
+    "key": "j63",
+    "Aspect": "อาชีพ",
+    "TH": "นายหน้า นายธนาคาร",
+    "CH": "經紀人、銀行家",
+    "ENG": "Broker, Banker"
+  },
+  {
+    "key": "w64",
+    "Aspect": "งาน",
+    "TH": "งานที่คั้งค้างจะคลี่คลาย แต่ต้องใช้เวลา",
+    "CH": "未完成的工作將得到解決。但這需要時間",
+    "ENG": "The outstanding work will be resolved. But it takes time"
+  },
+  {
+    "key": "m64",
+    "Aspect": "เงิน",
+    "TH": "หมดกับการวิ่งเต้น โยกย้ายบ้าน ถิ่นทำกิน",
+    "CH": "不再需要遊說、搬家、工作地點。",
+    "ENG": "No more lobbying, moving houses, places of work."
+  },
+  {
+    "key": "l64",
+    "Aspect": "รัก",
+    "TH": "ดีกันใหม่ หลังจากไม่เข้าใจกันมานาน",
+    "CH": "經過很久的不理解，我們又變得更好了。",
+    "ENG": "We're getting better again after not understanding each other for a long time."
+  },
+  {
+    "key": "h64",
+    "Aspect": "สุขภาพ",
+    "TH": "คนรักจะป่วยใน 1-2 สัปดาห์",
+    "CH": "您所愛的人將在 1-2 週內生病。",
+    "ENG": "Your loved one will be sick in 1-2 weeks."
+  },
+  {
+    "key": "j64",
+    "Aspect": "อาชีพ",
+    "TH": "ประกอบอาชีพทางน้ำ ทางทะเล ขายน้ำดื้ม",
+    "CH": "在水、海洋上工作，販售飲用水。",
+    "ENG": "Working on water, sea, selling drinking water."
+  },
+  {
+    "key": "w65",
+    "Aspect": "งาน",
+    "TH": "ได้งาน ประกวดราคา สมัครสอบแข่งขันได้ ได้เลื่อนตำแหน่ง งานไม่อยู่กับที่",
+    "CH": "找工作、競標、申請競爭性考試。 升職了工作不是靜止的。",
+    "ENG": "Get a job, compete for a bkey, apply for a competitive exam. Got promoted. The work is not stationary."
+  },
+  {
+    "key": "m65",
+    "Aspect": "เงิน",
+    "TH": "มีเงินฟลุ๊คเข้ามาตลอด",
+    "CH": "總有僥倖的錢進來。",
+    "ENG": "There's always fluke money coming in."
+  },
+  {
+    "key": "l65",
+    "Aspect": "รัก",
+    "TH": "มีคู่แข่ง ชนะแต่ต้องหมั่นตื้อ",
+    "CH": "有競爭者，但必須堅持。",
+    "ENG": "There are competitors. Win but must be persistent."
+  },
+  {
+    "key": "h65",
+    "Aspect": "สุขภาพ",
+    "TH": "เหน็ดเหนื่อย",
+    "CH": "疲勞的",
+    "ENG": "Tired"
+  },
+  {
+    "key": "j65",
+    "Aspect": "อาชีพ",
+    "TH": "มีกิจการของตัวเอง",
+    "CH": "擁有自己的事業",
+    "ENG": "Have your own business"
+  },
+  {
+    "key": "w66",
+    "Aspect": "งาน",
+    "TH": "ฝันจะทำงานใหญ่ๆ ชอบวาดวิมานในอากาศ",
+    "CH": "夢想做一番大事我喜歡畫空中樓閣。",
+    "ENG": "Dreaming of doing a big job, I like to draw castles in the air."
+  },
+  {
+    "key": "m66",
+    "Aspect": "เงิน",
+    "TH": "จะต้องลงมือทำ อย่าสร้างวิมานในอากาศจึงจะได้เงิน",
+    "CH": "必須採取行動不要為了賺錢而建造空中樓閣。",
+    "ENG": "Must take action. Don't build castles in the air to get money."
+  },
+  {
+    "key": "l66",
+    "Aspect": "รัก",
+    "TH": "โชคดีถ้ารอบคอบและไม่เพ้อฝัน",
+    "CH": "如果你小心謹慎並且不做夢，那麼祝你好運。",
+    "ENG": "Good luck if you are careful and don't dream."
+  },
+  {
+    "key": "h66",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j66",
+    "Aspect": "อาชีพ",
+    "TH": "ทำอะไรไม่นาน ดาราศิลปิน นักร้อง เดินแบบ รับจ๊อบสั้นๆ",
+    "CH": "做任何事都不需要很長時間，明星、藝術家、歌手、跑模特兒、找短期工作。",
+    "ENG": "It won't take long to do anything, stars, artists, singers, run models, get short jobs."
+  },
+  {
+    "key": "w67",
+    "Aspect": "งาน",
+    "TH": "มั่นคงด้วยตนเอง มีกิจการของตัวเอง",
+    "CH": "自穩定擁有自己的事業",
+    "ENG": "Self stable. Have your own business"
+  },
+  {
+    "key": "m67",
+    "Aspect": "เงิน",
+    "TH": "ร่ำรวย (ได้หนึ่งเหรียญแล้วมีต่อ)",
+    "CH": "豐富（獲得一枚硬幣並繼續）",
+    "ENG": "Rich (get one coin and continue)"
+  },
+  {
+    "key": "l67",
+    "Aspect": "รัก",
+    "TH": "สุข สมหวังและพร้อมทุกอย่าง",
+    "CH": "快樂、滿足並準備好迎接一切。",
+    "ENG": "Happy, fulfilled, and ready for everything."
+  },
+  {
+    "key": "h67",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j67",
+    "Aspect": "อาชีพ",
+    "TH": "เจ้าของบริษัท",
+    "CH": "公司所有者",
+    "ENG": "Company owner"
+  },
+  {
+    "key": "w68",
+    "Aspect": "งาน",
+    "TH": "ต้องทำงานผิดๆ ลับๆ ผิดกฎหมายเลี่ยงภาษี ผละงาน ทิ้งงาน",
+    "CH": "不得不非法、秘密打工、違法、逃稅、請假、放棄工作",
+    "ENG": "Having to work illegally, secretly, breaking the law, evading taxes, taking time off from work, abandoning work"
+  },
+  {
+    "key": "m68",
+    "Aspect": "เงิน",
+    "TH": "ได้จากใต้โต๊ะ ได้จากผิดๆ",
+    "CH": "從桌子底下拿到的，從錯誤的地方拿到的。",
+    "ENG": "Got it from under the table, got it from the wrong place."
+  },
+  {
+    "key": "l68",
+    "Aspect": "รัก",
+    "TH": "ต้องหนีตามกัน หลบซ่อน ได้ก่อนแต่งทำทุกวิถีทาง",
+    "CH": "我們必須一起逃走，在結婚前躲起來，盡我們所能。",
+    "ENG": "We have to run away together, hkeye before we get married, do whatever we can."
+  },
+  {
+    "key": "h68",
+    "Aspect": "สุขภาพ",
+    "TH": "โรคกระดูก",
+    "CH": "骨病",
+    "ENG": "Bone disease"
+  },
+  {
+    "key": "j68",
+    "Aspect": "อาชีพ",
+    "TH": "นายหน้า ติดต่อล้มคดี",
+    "CH": "聯絡經紀人撤銷案件",
+    "ENG": "Broker contacted to drop the case"
+  },
+  {
+    "key": "w69",
+    "Aspect": "งาน",
+    "TH": "ขยายกิจการสู่ระดับมั่นคง ใหญ่โต ขยายสาขา",
+    "CH": "將業務拓展至穩定、規模化、拓展分公司",
+    "ENG": "Expand business to a stable, large level, expand branches"
+  },
+  {
+    "key": "m69",
+    "Aspect": "เงิน",
+    "TH": "ร่ำรวยเงินหมุนคล่อง",
+    "CH": "財運亨通，財源滾滾。",
+    "ENG": "Wealthy, money flows smoothly."
+  },
+  {
+    "key": "l69",
+    "Aspect": "รัก",
+    "TH": "สมหวังได้แต่งงาน แต่งแล้วอาจมีอีก",
+    "CH": "我希望能結婚。結婚後，可能還會有更多。",
+    "ENG": "I hope to get married. After getting married, there may be more."
+  },
+  {
+    "key": "h69",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j69",
+    "Aspect": "อาชีพ",
+    "TH": "เป็นเจ้าของกิจการของตนเอง มีหลายสาขา",
+    "CH": "擁有自己的企業並擁有許多分支機構。",
+    "ENG": "Own your own business and have many branches."
+  },
+  {
+    "key": "w70",
+    "Aspect": "งาน",
+    "TH": "มั่นคงได้รับการสนับสนุนเป็นนักสังคมสงเคราะห์",
+    "CH": "穩定作為社會工作者得到支持。",
+    "ENG": "Stable, supported as a social worker."
+  },
+  {
+    "key": "m70",
+    "Aspect": "เงิน",
+    "TH": "ฐานะดี",
+    "CH": "狀態良好",
+    "ENG": "Good status"
+  },
+  {
+    "key": "l70",
+    "Aspect": "รัก",
+    "TH": "ห่างกันชั่วคราวหรือจากกันด้วยความเข้าใจ (ถ้วยไม่ล้ม) ถึงอยู่ก็อยู่ได้ในสังคมและลูกๆ เพื่อหน้าตา เบื่อกัน",
+    "CH": "暫時分開或彼此理解（杯子不落地）即使留下來，我們也可以為了面子而生活在社會和孩子中。",
+    "ENG": "Temporarily apart or from each other with understanding (the cup doesn't fall). Even if we stay, we can live in society and our children for the sake of looks. Bored with each other."
+  },
+  {
+    "key": "h70",
+    "Aspect": "สุขภาพ",
+    "TH": "เครียด คิดไม่ตก คิดสับสน วกวน ป่วยใจ",
+    "CH": "壓力大，無法清晰思考，思考混亂，注意力不集中，精神有問題。",
+    "ENG": "Stressed, unable to think clearly, confused thoughts, distracted, mentally ill."
+  },
+  {
+    "key": "j70",
+    "Aspect": "อาชีพ",
+    "TH": "เจ้าของกิจการของตนเอง",
+    "CH": "擁有自己的企業",
+    "ENG": "Owner of own business"
+  },
+  {
+    "key": "w71",
+    "Aspect": "งาน",
+    "TH": "สำเร็จด้วยฝีมือตนเอง",
+    "CH": "靠自己的本事完成",
+    "ENG": "Completed by one's own skill"
+  },
+  {
+    "key": "m71",
+    "Aspect": "เงิน",
+    "TH": "ได้ตลอด เล่นหุ้นได้",
+    "CH": "你可以隨時玩股票。",
+    "ENG": "You can always play stocks."
+  },
+  {
+    "key": "l71",
+    "Aspect": "รัก",
+    "TH": "สุขสมหวังกับคู่ฐานะดี",
+    "CH": "與富有的夫婦一起幸福和成功",
+    "ENG": "Happiness and success with a well-off couple."
+  },
+  {
+    "key": "h71",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j71",
+    "Aspect": "อาชีพ",
+    "TH": "เล่นหุ้น ซื้อมา ขายไป",
+    "CH": "玩股票、買、賣",
+    "ENG": "Play stocks, buy and sell"
+  },
+  {
+    "key": "w72",
+    "Aspect": "งาน",
+    "TH": "ตกงาน ถูกไล่ออก ถูกสอบสวน มีคดีความ",
+    "CH": "失業、解僱、調查、提起訴訟。",
+    "ENG": "Unemployed, fired, investigated, filed a lawsuit."
+  },
+  {
+    "key": "m72",
+    "Aspect": "เงิน",
+    "TH": "เป็นหนี้ กู้จำนอง-ขาย หลักทรัพย์",
+    "CH": "債務、抵押貸款、證券銷售",
+    "ENG": "Debt, mortgage loans, securities sales."
+  },
+  {
+    "key": "l72",
+    "Aspect": "รัก",
+    "TH": "ถูกบังคับแต่งงาน ภาวะจำยอม เลิกราหย่าร้าง อยู่กันโดยนิตินัย ถูกตั้งกฎเกณฑ์",
+    "CH": "強迫婚姻、奴役、分手、離婚合法同居直紋",
+    "ENG": "Forced marriage, servitude, breakup, divorce Living together legally Ruled"
+  },
+  {
+    "key": "h72",
+    "Aspect": "สุขภาพ",
+    "TH": "ผ่าตัด อุบัติเหตุ เครียด กดดัน",
+    "CH": "手術、意外、壓力、壓力",
+    "ENG": "Surgery, acckeyent, stress, pressure"
+  },
+  {
+    "key": "j72",
+    "Aspect": "อาชีพ",
+    "TH": "นังเลง นายหน้าวิ่งใต้โต๊ะ ล้มดคี",
+    "CH": "一個歹徒，一個經紀人跑到桌子底下，把他撞倒了。",
+    "ENG": "A gangster, a broker runs under the table, knocks him down."
+  },
+  {
+    "key": "w73",
+    "Aspect": "งาน",
+    "TH": "ย้ายงานบ่อย ต้องเป็นกิจการของตันเอง",
+    "CH": "頻繁換工作一定是譚自己的事。",
+    "ENG": "Frequent job changes. Must be Tan's own business."
+  },
+  {
+    "key": "m73",
+    "Aspect": "เงิน",
+    "TH": "หาง่าย ใช้เก่ง",
+    "CH": "很容易找到，很好用",
+    "ENG": "Easy to find, good to use"
+  },
+  {
+    "key": "l73",
+    "Aspect": "รัก",
+    "TH": "รักจริง เคียงข้างกันเสมอ ยังหวงคนเก่าอยู่",
+    "CH": "真愛，永遠肩並肩還是嫉妒老頭子",
+    "ENG": "True love, always skeye by skeye. Still jealous of the old man."
+  },
+  {
+    "key": "h73",
+    "Aspect": "สุขภาพ",
+    "TH": "ไม่สู้ดี เหนื่อย เครียด เหน็ดเหนื่อย",
+    "CH": "戰鬥力不佳、疲倦、壓力大、筋疲力盡",
+    "ENG": "Not fighting well, tired, stressed, exhausted"
+  },
+  {
+    "key": "j73",
+    "Aspect": "อาชีพ",
+    "TH": "นายทุนเงินกู้",
+    "CH": "高利貸者",
+    "ENG": "Loan shark"
+  },
+  {
+    "key": "w74",
+    "Aspect": "งาน",
+    "TH": "ชอบงานเด่นดัง แก้ปัญหาเก่ง",
+    "CH": "喜歡出色的工作，善於解決問題",
+    "ENG": "Likes outstanding work, good at solving problems."
+  },
+  {
+    "key": "m74",
+    "Aspect": "เงิน",
+    "TH": "มีตลอด",
+    "CH": "一直有",
+    "ENG": "Always there."
+  },
+  {
+    "key": "l74",
+    "Aspect": "รัก",
+    "TH": "แย่งชิง รักซ้อน พ่อหม้าย อายุมาก รักคนมีครอบครัวแล้ว ไม่เคยรัก แต่พอยู่ไปก็รัก รักไม่รู้จบ",
+    "CH": "競爭，雙愛，鰥夫，年老，愛一個已經有家庭的人，從未愛過，但仍然愛，愛無止境。",
+    "ENG": "Compete, double love, wkeyower, old age, love someone who already has a family, never loved, but still love, love without end."
+  },
+  {
+    "key": "h74",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j74",
+    "Aspect": "อาชีพ",
+    "TH": "ของสวยงาม อัญมณี ร้านอาหาร เสื้อผ้าสำเร็จรูป",
+    "CH": "美麗的物品、珠寶、餐廳、成衣",
+    "ENG": "Beautiful items, jewelry, restaurants, ready-made clothing."
+  },
+  {
+    "key": "w75",
+    "Aspect": "งาน",
+    "TH": "ขยายโรงงาน มั่นคง ทำงานหนัก",
+    "CH": "擴廠、穩定、努力",
+    "ENG": "Expand factory, stable, work hard."
+  },
+  {
+    "key": "m75",
+    "Aspect": "เงิน",
+    "TH": "ร่ำรวยมาก",
+    "CH": "非常豐富",
+    "ENG": "Very rich"
+  },
+  {
+    "key": "l75",
+    "Aspect": "รัก",
+    "TH": "ถูกหลอกจนเข็ด จึงอยู่คนเดียว",
+    "CH": "受到驚嚇和欺騙所以我一個人。",
+    "ENG": "Frightened and deceived, so I'm alone."
+  },
+  {
+    "key": "h75",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j75",
+    "Aspect": "อาชีพ",
+    "TH": "นายทุนเงินกู้ มีกิจการของตนเอง",
+    "CH": "高利貸者有自己的事業",
+    "ENG": "Loan shark. Have your own business."
+  },
+  {
+    "key": "w76",
+    "Aspect": "งาน",
+    "TH": "มีอุปสรรค ย้าย ลาออก ตกงาน",
+    "CH": "遇到了障礙，搬家、離職、失業。",
+    "ENG": "There were obstacles, moving, resigning, losing a job."
+  },
+  {
+    "key": "m76",
+    "Aspect": "เงิน",
+    "TH": "ขาดมือ เป็นหนี้ ถูกโกง",
+    "CH": "缺人手、欠債、作弊",
+    "ENG": "Lack of hands, debt, cheating"
+  },
+  {
+    "key": "l76",
+    "Aspect": "รัก",
+    "TH": "ถูกจับแต่ง เลิกราหย่าร้าง ถูกหลอก",
+    "CH": "結婚了，分手了，離婚了，被騙了。",
+    "ENG": "Got married, broke up, got divorced, was deceived."
+  },
+  {
+    "key": "h76",
+    "Aspect": "สุขภาพ",
+    "TH": "ปวดศรีษะ สายตา อ้างว้าง ทุกข์ระทมอาจต้องผ่าตัด",
+    "CH": "頭痛、視力、孤獨、痛苦可能需要手術。",
+    "ENG": "Headache, eyesight, loneliness, suffering may require surgery."
+  },
+  {
+    "key": "j76",
+    "Aspect": "อาชีพ",
+    "TH": "นายทุน เงินกู้",
+    "CH": "資本主義貸款",
+    "ENG": "Capitalist loan"
+  },
+  {
+    "key": "w77",
+    "Aspect": "งาน",
+    "TH": "มั่นคง ยิ่งใหญ่แต่หนัก มีโรงงานเอง",
+    "CH": "穩定，大而重，有自己的工廠",
+    "ENG": "Stable, big but heavy, has its own factory."
+  },
+  {
+    "key": "m77",
+    "Aspect": "เงิน",
+    "TH": "เศรษฐีร้อยล้าน ต้องลงทุนมาก",
+    "CH": "一百個百萬富翁必須投入大量資金。",
+    "ENG": "A hundred millionaire must invest a lot."
+  },
+  {
+    "key": "l77",
+    "Aspect": "รัก",
+    "TH": "สุขสมหวัง แต่ไม่โรแมนติก",
+    "CH": "快樂和滿足，但不浪漫。",
+    "ENG": "Happy and fulfilled, but not romantic."
+  },
+  {
+    "key": "h77",
+    "Aspect": "สุขภาพ",
+    "TH": "ระวังล้มหมอนนอนเสื่อ",
+    "CH": "小心臥床不起。",
+    "ENG": "Be careful of being bedrkeyden."
+  },
+  {
+    "key": "j77",
+    "Aspect": "อาชีพ",
+    "TH": "มีกิจการของตัวเอง",
+    "CH": "擁有自己的事業",
+    "ENG": "Have your own business"
+  },
+  {
+    "key": "w78",
+    "Aspect": "งาน",
+    "TH": "สำเร็จตามที่หวัง",
+    "CH": "正如預期的那樣成功",
+    "ENG": "Successful as expected"
+  },
+  {
+    "key": "m78",
+    "Aspect": "เงิน",
+    "TH": "ร่ำรวยมากเป็นเศรษฐี",
+    "CH": "非常富有，成為百萬富翁",
+    "ENG": "Very rich, become a millionaire"
+  },
+  {
+    "key": "l78",
+    "Aspect": "รัก",
+    "TH": "แต่งงานได้บุตรบริวานดีอยู่กันตลอดจนชั่วนิรันดร",
+    "CH": "結婚，生下好孩子，永遠生活在一起。",
+    "ENG": "Get married, have good children, live together forever."
+  },
+  {
+    "key": "h78",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j78",
+    "Aspect": "อาชีพ",
+    "TH": "ร้านอาหาร ร้านอัญมณี เสื้อผ้าสำเร็จรูป ร้านดอกไม้",
+    "CH": "餐廳、珠寶店、成衣、花店",
+    "ENG": "Restaurant, jewelry store, ready-made clothing, flower shop"
+  },
+  {
+    "key": "w79",
+    "Aspect": "งาน",
+    "TH": "มั่นคงมาก ได้รับช่วงจากบรรพบุรุษ",
+    "CH": "非常穩定，繼承祖先",
+    "ENG": "Very stable, inherited from ancestors"
+  },
+  {
+    "key": "m79",
+    "Aspect": "เงิน",
+    "TH": "ร่ำรวยมหาศาล ได้มรดก",
+    "CH": "極度富有，傳承",
+    "ENG": "Extremely rich, inherited"
+  },
+  {
+    "key": "l79",
+    "Aspect": "รัก",
+    "TH": "สุขสมบูรณ์",
+    "CH": "絕對的幸福",
+    "ENG": "Absolute happiness"
+  },
+  {
+    "key": "h79",
+    "Aspect": "สุขภาพ",
+    "TH": "แข็งแรง",
+    "CH": "強的",
+    "ENG": "Strong"
+  },
+  {
+    "key": "j79",
+    "Aspect": "อาชีพ",
+    "TH": "นายทุนเงินกู้ นายแบงก์",
+    "CH": "高利貸、銀行家",
+    "ENG": "Loan shark, banker"
+  },
+  {
+    "key": "w80",
+    "Aspect": "งาน",
+    "TH": "ถูกไล่ออกจากงาน ตกงาน ลาออกก่อนกำหนด",
+    "CH": "被解僱、失業、提前辭職",
+    "ENG": "Being fired from a job, losing a job, resigning early"
+  },
+  {
+    "key": "m80",
+    "Aspect": "เงิน",
+    "TH": "เสียเงิน หมดตัว ถูกฟ้อง ล้มละลาย",
+    "CH": "賠錢、破產、被起訴、破產。",
+    "ENG": "Lost money, went bankrupt, got sued, went bankrupt."
+  },
+  {
+    "key": "l80",
+    "Aspect": "รัก",
+    "TH": "เลิกรา ไม่ติดต่อ หย่าร้าง เป็นม่าย",
+    "CH": "分手、斷絕聯繫、離婚、喪偶",
+    "ENG": "Break up, no contact, divorce, wkeyow"
+  },
+  {
+    "key": "h80",
+    "Aspect": "สุขภาพ",
+    "TH": "เข้าโรงพยาบาลผ่าตัด เจ็บหนัก ระวังอุบัติเหตุ",
+    "CH": "去醫院做手術，受傷得很重，小心意外。",
+    "ENG": "Going to the hospital for surgery, seriously hurt, watch out for acckeyents."
+  },
+  {
+    "key": "j80",
+    "Aspect": "อาชีพ",
+    "TH": "นายทุนเงินกู้",
+    "CH": "高利貸者",
+    "ENG": "Loan shark"
+  }
+]
