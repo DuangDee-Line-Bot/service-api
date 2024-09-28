@@ -6,6 +6,7 @@ dotenv.config();
 
 let otp = null;
 let expiry = null;
+let createdDate = null;
 let otps = [];
 export const generateOTP = () => {
   return randomstring.generate({
@@ -20,7 +21,7 @@ export const generateOTP = () => {
 export const regenerateOTP = () => {
   otp = generateOTP();
   expiry = Date.now() + parseInt(process.env.OTP_EXPIRY || 180000); // Default 3 minutes
-
+  createdDate = Date.now();
   console.log(
     `New OTP generated: ${otp}, expires at: ${new Date(expiry).toISOString()}`
   );
@@ -30,6 +31,7 @@ export const regenerateOTP = () => {
 export const validateOTP = () => {
   const hasExpired = Date.now() > expiry;
   const currentOtp = otp;
+  const currentCreatedDate = createdDate;
   regenerateOTP(); // Immediately generate a new OTP after the user gets the current one.
   otps.forEach((otp, index) => {
     if (new Date(otp.expiry) < Date.now()) {
@@ -39,6 +41,7 @@ export const validateOTP = () => {
   return {
     otp: currentOtp,
     expiry: new Date(expiry).toISOString(),
+    createdDate: new Date(createdDate).toISOString(),
     hasExpired,
   };
 };
