@@ -1,7 +1,5 @@
 import dotenv from "dotenv";
 
-dotenv.config();
-
 import express from "express";
 import cron from "node-cron";
 import routes from "./routes/index.js";
