@@ -1,5 +1,5 @@
 import randomstring from "randomstring";
-import 'dotenv/config';
+import "dotenv/config";
 import cron from "node-cron";
 
 dotenv.config();
@@ -26,10 +26,9 @@ export const regenerateOTP = () => {
   expiry = Date.now() + parseInt(process.env.OTP_EXPIRY || 180000); // Default 3 minutes
   createdDate = Date.now();
   console.log(
-    `New OTP generated: ${otp}, expires at: ${new Date(expiry).toISOString()}`
+    `New OTP generated: ${otp}, expires at: ${new Date(expiry).toISOString()}`,
   );
 };
-
 
 export const validateOTP = () => {
   const hasExpired = Date.now() > expiry;
@@ -63,14 +62,15 @@ cron.schedule("*/1 * * * *", () => {
 // Initialize first OTP
 regenerateOTP();
 
-
 export const getOTP = async () => {
   try {
     const url = `${process.env.API_URL}/api/otp`;
     const response = await fetch(url);
 
     if (!response.ok) {
-      throw new Error(`Failed to fetch OTP: ${response.status} ${response.statusText}`);
+      throw new Error(
+        `Failed to fetch OTP: ${response.status} ${response.statusText}`,
+      );
     }
 
     const data = await response.json();
