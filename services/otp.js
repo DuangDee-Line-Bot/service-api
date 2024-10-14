@@ -2,8 +2,6 @@ import randomstring from "randomstring";
 import "dotenv/config";
 import cron from "node-cron";
 
-dotenv.config();
-
 let otp = null;
 let expiry = null;
 let createdDate = null;
@@ -85,3 +83,24 @@ export const getOTP = async () => {
 export const getOTPLength = () => otpLength;
 
 export const getGlobalOTP = async () => globalOtp;
+
+export const findData = async (responseMessage, jsonData) => {
+  const resMsgLowerCase = responseMessage.toLowerCase();
+  console.log(resMsgLowerCase);
+
+  const matchedItem = jsonData.find((x) => x.key === responseMessage);
+
+  if (matchedItem) {
+    return (
+      matchedItem.Aspect +
+      "\n\n" +
+      matchedItem.TH +
+      "\n\n" +
+      matchedItem.CH +
+      "\n\n" +
+      matchedItem.ENG
+    );
+  } else {
+    return "ไม่พบข้อมูลที่ตรงกัน";
+  }
+};

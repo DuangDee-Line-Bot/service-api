@@ -1,4 +1,4 @@
-import { generatedOtps, validateOTP } from "../services/otpService.js";
+import { generatedOtps, validateOTP } from "../services/otp.js";
 
 const getOtp = () => {
   validateOTP();
