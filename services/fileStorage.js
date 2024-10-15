@@ -1,3 +1,4 @@
+import fs from "fs";
 const storageFile = "localStorage.json";
 
 export const getStorage = () => {

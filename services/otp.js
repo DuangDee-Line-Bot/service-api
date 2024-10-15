@@ -24,7 +24,7 @@ export const regenerateOTP = () => {
   expiry = Date.now() + parseInt(process.env.OTP_EXPIRY || 180000); // Default 3 minutes
   createdDate = Date.now();
   console.log(
-    `New OTP generated: ${otp}, expires at: ${new Date(expiry).toISOString()}`,
+    `New OTP generated: ${otp}, expires at: ${new Date(expiry).toISOString()}`
   );
 };
 
@@ -63,16 +63,18 @@ regenerateOTP();
 export const getOTP = async () => {
   try {
     const url = `${process.env.API_URL}/api/otp`;
+    console.log(url);
     const response = await fetch(url);
 
     if (!response.ok) {
       throw new Error(
-        `Failed to fetch OTP: ${response.status} ${response.statusText}`,
+        `Failed to fetch OTP: ${response.status} ${response.statusText}`
       );
     }
 
     const data = await response.json();
     otpLength = data.length;
+    globalOtp = data;
     return data;
   } catch (error) {
     console.error("Error fetching OTP:", error.message);
