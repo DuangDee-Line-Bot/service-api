@@ -4,15 +4,20 @@ import { getData } from "./data.js";
 import { getStorage, postStorage } from "./fileStorage.js";
 import { replyText, handleCommonEvent } from "./utils.js";
 
-const localOtp = getStorage();
-
 export const handleEvent = async (event) => {
+  const handleEventLocalOtp = getStorage();
+
   const otp = await getOTP();
   const globalOtp = await getGlobalOTP();
-  const checkOtp = await otp.find((otps) => otps.otp === localOtp.otp);
+  const checkOtp = await otp.find(
+    (otps) => otps.otp === handleEventLocalOtp.otp
+  );
   console.log(checkOtp);
 
-  if (localOtp && !otp.find((otps) => otps.otp === localOtp.otp)) {
+  if (
+    handleEventLocalOtp &&
+    !otp.find((otps) => otps.otp === handleEventLocalOtp.otp)
+  ) {
     postStorage("");
     return replyText(
       event.replyToken,
@@ -36,7 +41,9 @@ export const handleEvent = async (event) => {
 };
 
 const handleMessageEvent = (event) => {
-  if (localOtp !== "") {
+  const handleMessageLocalOtp = getStorage();
+
+  if (handleMessageLocalOtp !== "") {
     switch (event.type) {
       case "message":
         return handleMessage(event.message, event.replyToken);
