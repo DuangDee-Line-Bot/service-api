@@ -9,7 +9,8 @@ const localOtp = getStorage();
 export const handleEvent = async (event) => {
   const otp = await getOTP();
   const globalOtp = await getGlobalOTP();
-  console.log(localOtp);
+  const checkOtp = await otp.find((otps) => otps.otp === localOtp.otp);
+  console.log(checkOtp);
 
   if (localOtp && !otp.find((otps) => otps.otp === localOtp.otp)) {
     postStorage("");
@@ -22,6 +23,8 @@ export const handleEvent = async (event) => {
 
   if (globalOtp.find((otps) => otps.otp === event.message.text)) {
     postStorage({ otp: event.message.text });
+    console.log(getStorage());
+
     return replyText(
       event.replyToken,
       "OTP ของคุณถูกต้อง",
