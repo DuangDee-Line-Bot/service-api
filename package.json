@@ -6,21 +6,39 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write ."
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@line/bot-sdk": "^8.2.0",
+    "body-parser": "^1.20.3",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "fs": "0.0.1-security",
     "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
     "nodemon": "^3.1.4",
     "path": "^0.12.7",
     "randomstring": "^1.3.0"
   },
   "engines": {
     "node": ">=20.15.1 <21.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.12.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-define-config": "^2.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jest": "^28.8.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-promise": "^7.1.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "prettier": "^3.3.3"
   }
 }

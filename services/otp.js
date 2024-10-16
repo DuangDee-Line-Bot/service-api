@@ -1,13 +1,14 @@
 import randomstring from "randomstring";
-import dotenv from "dotenv";
+import "dotenv/config";
 import cron from "node-cron";
-
-dotenv.config();
 
 let otp = null;
 let expiry = null;
 let createdDate = null;
 let otps = [];
+let globalOtp = null;
+let otpLength = 0;
+
 export const generateOTP = () => {
   return randomstring.generate({
     length: parseInt(process.env.OTP_LENGTH) || 5,
@@ -27,12 +28,11 @@ export const regenerateOTP = () => {
   );
 };
 
-// Function to validate the current OTP
 export const validateOTP = () => {
   const hasExpired = Date.now() > expiry;
   const currentOtp = otp;
   const currentCreatedDate = createdDate;
-  regenerateOTP(); // Immediately generate a new OTP after the user gets the current one.
+  regenerateOTP();
   otps.forEach((otp, index) => {
     if (new Date(otp.expiry) < Date.now()) {
       otps.splice(index, 1);
@@ -45,6 +45,7 @@ export const validateOTP = () => {
     hasExpired,
   };
 };
+
 export const generatedOtps = () => {
   otps.push(validateOTP());
   return otps;
@@ -58,3 +59,50 @@ cron.schedule("*/1 * * * *", () => {
 });
 // Initialize first OTP
 regenerateOTP();
+
+export const getOTP = async () => {
+  try {
+    const url = `${process.env.API_URL}/api/otp`;
+    console.log(url);
+    const response = await fetch(url);
+
+    if (!response.ok) {
+      throw new Error(
+        `Failed to fetch OTP: ${response.status} ${response.statusText}`
+      );
+    }
+
+    const data = await response.json();
+    otpLength = data.length;
+    globalOtp = data;
+    return data;
+  } catch (error) {
+    console.error("Error fetching OTP:", error.message);
+    return null;
+  }
+};
+
+export const getOTPLength = () => otpLength;
+
+export const getGlobalOTP = async () => globalOtp;
+
+export const findData = async (responseMessage, jsonData) => {
+  const resMsgLowerCase = responseMessage.toLowerCase();
+  console.log(resMsgLowerCase);
+
+  const matchedItem = jsonData.find((x) => x.key === responseMessage);
+
+  if (matchedItem) {
+    return (
+      matchedItem.Aspect +
+      "\n\n" +
+      matchedItem.TH +
+      "\n\n" +
+      matchedItem.CH +
+      "\n\n" +
+      matchedItem.ENG
+    );
+  } else {
+    return "ไม่พบข้อมูลที่ตรงกัน";
+  }
+};
