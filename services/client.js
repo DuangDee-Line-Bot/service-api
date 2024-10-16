@@ -25,8 +25,7 @@ export const handleEvent = async (event) => {
     return replyText(
       event.replyToken,
       "OTP ของคุณถูกต้อง",
-      event.message.quoteToken,
-      false
+      event.message.quoteToken
     );
   }
 
