@@ -47,7 +47,7 @@ export const handleEvent = async (event) => {
     } else {
       return replyText(
         event.replyToken,
-        "OTP ของคุณถูกใช้ไปแล้ว\nโปรดส่งรหัส OTP ใหม่",
+        "OTP ของคุณถูกใช้ไปแล้ว",
         event.message.quoteToken
       );
     }
