@@ -86,21 +86,14 @@ export const getGlobalOTP = async () => globalOtp;
 
 export const markOtpAsUsed = async (otp) => {
   const otps = await getOTP();
-  console.log("otps");
-  console.log(otps);
+
   const otpObject = otps.find((o) => o.otp === otp);
 
   if (!otpObject) {
     return { error: "OTP not found" };
   }
 
-  if (otpObject.isUsed) {
-    return { error: "OTP is already used" };
-  }
-
   otpObject.isUsed = true;
-  console.log("otpObject");
-  console.log(otpObject);
 
   return otpObject;
 };

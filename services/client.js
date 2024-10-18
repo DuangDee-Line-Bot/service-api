@@ -30,8 +30,7 @@ export const handleEvent = async (event) => {
     if (correctOtp.isUsed == false) {
       postStorage({ otp: event.message.text });
 
-      updateOtpAsUsed(correctOtp.otp);
-      console.log("OTP ของคุณถูกต้อง");
+      updateOtpAsUsed(event.message.text);
       return replyText(
         event.replyToken,
         "OTP ของคุณถูกต้อง",
