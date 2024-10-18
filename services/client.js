@@ -1,4 +1,4 @@
-import { getOTP, findData, getGlobalOTP, updateOtpAsUSed } from "./otp.js";
+import { getOTP, findData, getGlobalOTP, updateOtpAsUsed } from "./otp.js";
 import { getData } from "./data.js";
 
 import { getStorage, postStorage } from "./fileStorage.js";
@@ -30,11 +30,14 @@ export const handleEvent = async (event) => {
       (otps) => otps.otp === event.message.text
     );
     console.log("correctOtp = " + correctOtp.isUsed);
+    console.log(correctOtp.otp);
+
     if (correctOtp.isUsed == false) {
       postStorage({ otp: event.message.text });
 
       console.log("getStorage()");
       console.log(getStorage());
+      await updateOtpAsUsed(correctOtp.otp);
 
       return replyText(
         event.replyToken,
@@ -42,7 +45,6 @@ export const handleEvent = async (event) => {
         event.message.quoteToken
       );
     } else {
-      updateOtpAsUSed(correctOtp.otp);
       return replyText(
         event.replyToken,
         "OTP ของคุณถูกใช้ไปแล้ว\nโปรดส่งรหัส OTP ใหม่",

@@ -1,4 +1,9 @@
-import { generatedOtps, validateOTP } from "../services/otp.js";
+import {
+  generatedOtps,
+  validateOTP,
+  markOtpAsUsed,
+  updateOtpStatus,
+} from "../services/otp.js";
 
 const getOtp = (req, res) => {
   try {
@@ -9,10 +14,14 @@ const getOtp = (req, res) => {
     res.status(500).send("Error reading data");
   }
 };
-const usedOtp = (req, res) => {
-  const { otp } = req.body;
-  const result = otpService.markOtpAsUsed(otp);
-
+const usedOtp = async (req, res) => {
+  const { otp } = req.params;
+  console.log("usedOtp");
+  console.log(otp);
+  updateOtpStatus(otp);
+  const result = await markOtpAsUsed(otp);
+  console.log("result");
+  console.log(result);
   if (result.error) {
     return res
       .status(result.error === "OTP not found" ? 404 : 400)
