@@ -6,10 +6,10 @@ let otp = null;
 let expiry = null;
 let createdDate = null;
 let isUsed = false;
-
 let otps = [];
 let globalOtp = null;
 let otpLength = 0;
+
 export const generateOTP = () => {
   return randomstring.generate({
     length: parseInt(process.env.OTP_LENGTH) || 5,
@@ -19,16 +19,15 @@ export const generateOTP = () => {
   });
 };
 
-// Function to regenerate OTP and expiry
 export const regenerateOTP = () => {
   otp = generateOTP();
   expiry = Date.now() + parseInt(process.env.OTP_EXPIRY || 180000); // Default 3 minutes
   createdDate = Date.now();
   isUsed = false;
 
-  // console.log(
-  //   `New OTP generated: ${otp}, expires at: ${new Date(expiry).toISOString()}`
-  // );
+  console.log(
+    `New OTP generated: ${otp}, expires at: ${new Date(expiry).toISOString()}`
+  );
 };
 
 export const validateOTP = () => {
@@ -58,7 +57,6 @@ cron.schedule("*/1 * * * *", () => {
     }
   });
 });
-// Initialize first OTP
 regenerateOTP();
 
 export const getOTP = async () => {
@@ -109,10 +107,10 @@ export const markOtpAsUsed = async (otp) => {
 export const updateOtpStatus = (otp) => {
   const index = otps.findIndex((item) => item.otp === otp);
   if (index !== -1) {
-    otps[index].isUsed = true; // Mark the OTP as used
-    return otps[index]; // Return the updated OTP
+    otps[index].isUsed = true;
+    return otps[index];
   }
-  throw new Error("OTP not found"); // Handle not found case
+  throw new Error("OTP not found");
 };
 export const updateOtpAsUsed = async (otp) => {
   try {
@@ -120,9 +118,9 @@ export const updateOtpAsUsed = async (otp) => {
     console.log(`OTP to mark as used: ${otp}`);
 
     const response = await fetch(url + otp, {
-      method: "PUT", // Ensure you use PUT here
+      method: "PUT",
       headers: {
-        "Content-Type": "application/json", // Specify the content type if needed
+        "Content-Type": "application/json",
       },
     });
 
@@ -132,10 +130,10 @@ export const updateOtpAsUsed = async (otp) => {
     }
 
     const data = await response.json();
-    return data; // Return the successful response
+    return data;
   } catch (error) {
     console.error("Error marking OTP as used:", error.message);
-    throw error; // Rethrow error to be handled by the caller
+    throw error;
   }
 };
 

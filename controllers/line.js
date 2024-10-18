@@ -3,8 +3,6 @@ import "dotenv/config";
 import line from "@line/bot-sdk";
 import otpService from "../services/otp";
 
-// dotenv.config();
-
 const config = {
   channelAccessToken: process.env.CLIENT_CHANNEL_ACCESS_TOKEN,
   channelSecret: process.env.CLIENT_CHANNEL_SECRET,

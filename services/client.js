@@ -9,10 +9,7 @@ export const handleEvent = async (event) => {
 
   const otp = await getOTP();
   const globalOtp = await getGlobalOTP();
-  const checkOtp = await globalOtp.find(
-    (otps) => otps.otp === event.message.text
-  );
-  console.log(handleEventLocalOtp);
+
   if (
     handleEventLocalOtp &&
     !otp.find((otps) => otps.otp === handleEventLocalOtp.otp)
@@ -29,16 +26,12 @@ export const handleEvent = async (event) => {
     const correctOtp = globalOtp.find(
       (otps) => otps.otp === event.message.text
     );
-    console.log("correctOtp = " + correctOtp.isUsed);
-    console.log(correctOtp.otp);
 
     if (correctOtp.isUsed == false) {
       postStorage({ otp: event.message.text });
 
-      console.log("getStorage()");
-      console.log(getStorage());
-      await updateOtpAsUsed(correctOtp.otp);
-
+      updateOtpAsUsed(correctOtp.otp);
+      console.log("OTP ของคุณถูกต้อง");
       return replyText(
         event.replyToken,
         "OTP ของคุณถูกต้อง",
