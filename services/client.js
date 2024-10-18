@@ -1,4 +1,4 @@
-import { getOTP, findData, getGlobalOTP } from "./otp.js";
+import { getOTP, findData, getGlobalOTP, updateOtpAsUSed } from "./otp.js";
 import { getData } from "./data.js";
 
 import { getStorage, postStorage } from "./fileStorage.js";
@@ -9,11 +9,10 @@ export const handleEvent = async (event) => {
 
   const otp = await getOTP();
   const globalOtp = await getGlobalOTP();
-  const checkOtp = await otp.find(
-    (otps) => otps.otp === handleEventLocalOtp.otp
+  const checkOtp = await globalOtp.find(
+    (otps) => otps.otp === event.message.text
   );
-  console.log(checkOtp);
-
+  console.log(handleEventLocalOtp);
   if (
     handleEventLocalOtp &&
     !otp.find((otps) => otps.otp === handleEventLocalOtp.otp)
@@ -27,14 +26,29 @@ export const handleEvent = async (event) => {
   }
 
   if (globalOtp.find((otps) => otps.otp === event.message.text)) {
-    postStorage({ otp: event.message.text });
-    console.log(getStorage());
-
-    return replyText(
-      event.replyToken,
-      "OTP ของคุณถูกต้อง",
-      event.message.quoteToken
+    const correctOtp = globalOtp.find(
+      (otps) => otps.otp === event.message.text
     );
+    console.log("correctOtp = " + correctOtp.isUsed);
+    if (correctOtp.isUsed == false) {
+      postStorage({ otp: event.message.text });
+
+      console.log("getStorage()");
+      console.log(getStorage());
+
+      return replyText(
+        event.replyToken,
+        "OTP ของคุณถูกต้อง",
+        event.message.quoteToken
+      );
+    } else {
+      updateOtpAsUSed(correctOtp.otp);
+      return replyText(
+        event.replyToken,
+        "OTP ของคุณถูกใช้ไปแล้ว\nโปรดส่งรหัส OTP ใหม่",
+        event.message.quoteToken
+      );
+    }
   }
 
   return handleMessageEvent(event);

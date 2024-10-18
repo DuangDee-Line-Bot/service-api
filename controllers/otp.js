@@ -9,5 +9,16 @@ const getOtp = (req, res) => {
     res.status(500).send("Error reading data");
   }
 };
+const usedOtp = (req, res) => {
+  const { otp } = req.body;
+  const result = otpService.markOtpAsUsed(otp);
 
-export { getOtp };
+  if (result.error) {
+    return res
+      .status(result.error === "OTP not found" ? 404 : 400)
+      .json({ message: result.error });
+  }
+
+  return res.status(200).json(result);
+};
+export { getOtp, usedOtp };

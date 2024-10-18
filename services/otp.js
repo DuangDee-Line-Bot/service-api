@@ -23,13 +23,13 @@ export const regenerateOTP = () => {
   otp = generateOTP();
   expiry = Date.now() + parseInt(process.env.OTP_EXPIRY || 180000); // Default 3 minutes
   createdDate = Date.now();
-  console.log(
-    `New OTP generated: ${otp}, expires at: ${new Date(expiry).toISOString()}`
-  );
+  // console.log(
+  //   `New OTP generated: ${otp}, expires at: ${new Date(expiry).toISOString()}`
+  // );
 };
 
 export const validateOTP = () => {
-  const hasExpired = Date.now() > expiry;
+  const isUsed = false;
   const currentOtp = otp;
   const currentCreatedDate = createdDate;
   regenerateOTP();
@@ -42,7 +42,7 @@ export const validateOTP = () => {
     otp: currentOtp,
     expiry: new Date(expiry).toISOString(),
     createdDate: new Date(createdDate).toISOString(),
-    hasExpired,
+    isUsed,
   };
 };
 
@@ -63,7 +63,6 @@ regenerateOTP();
 export const getOTP = async () => {
   try {
     const url = `${process.env.API_URL}/api/otp`;
-    console.log(url);
     const response = await fetch(url);
 
     if (!response.ok) {
@@ -86,10 +85,45 @@ export const getOTPLength = () => otpLength;
 
 export const getGlobalOTP = async () => globalOtp;
 
-export const findData = async (responseMessage, jsonData) => {
-  const resMsgLowerCase = responseMessage.toLowerCase();
-  console.log(resMsgLowerCase);
+export const markOtpAsUsed = async (otp) => {
+  const otps = getOTP();
 
+  const otpObject = otps.find((o) => o.otp === otp);
+
+  if (!otpObject) {
+    return { error: "OTP not found" };
+  }
+
+  if (otpObject.isUsed) {
+    return { error: "OTP is already used" };
+  }
+
+  otpObject.isUsed = true;
+  return { message: "OTP marked as used", otpObject };
+};
+export const updateOtpAsUSed = async (otp) => {
+  try {
+    const response = await fetch("/api/otp/used", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ otp }),
+    });
+
+    if (!response.ok) {
+      const errorData = await response.json();
+      throw new Error(errorData.message);
+    }
+
+    const data = await response.json();
+    return data; // Return the successful response
+  } catch (error) {
+    console.error("Error marking OTP as used:", error.message);
+    throw error; // Rethrow error to be handled by the caller
+  }
+};
+export const findData = async (responseMessage, jsonData) => {
   const matchedItem = jsonData.find((x) => x.key === responseMessage);
 
   if (matchedItem) {

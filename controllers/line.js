@@ -89,11 +89,8 @@ const handleMessage = async (message, replyToken) => {
 
 // Handle text messages
 const handleText = async (message, replyToken) => {
-  console.log("handleText");
-
   const otpArray = await otpService.getOTP();
   if (otpArray.length > 0) {
-    console.log(otpArray.length);
     return replyText(
       replyToken,
       otpArray[otpArray.length - 1].otp,
