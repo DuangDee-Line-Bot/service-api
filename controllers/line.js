@@ -3,8 +3,6 @@ import "dotenv/config";
 import line from "@line/bot-sdk";
 import otpService from "../services/otp";
 
-// dotenv.config();
-
 const config = {
   channelAccessToken: process.env.CLIENT_CHANNEL_ACCESS_TOKEN,
   channelSecret: process.env.CLIENT_CHANNEL_SECRET,
@@ -89,11 +87,8 @@ const handleMessage = async (message, replyToken) => {
 
 // Handle text messages
 const handleText = async (message, replyToken) => {
-  console.log("handleText");
-
   const otpArray = await otpService.getOTP();
   if (otpArray.length > 0) {
-    console.log(otpArray.length);
     return replyText(
       replyToken,
       otpArray[otpArray.length - 1].otp,

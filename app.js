@@ -3,6 +3,7 @@ import express from "express";
 import cron from "node-cron";
 import routes from "./routes/index.js";
 import { regenerateOTP, getOTP } from "./services/otp.js";
+
 import { middleware } from "@line/bot-sdk";
 
 const app = express();
@@ -27,7 +28,7 @@ app.use(express.json());
 app.use("/", routes);
 
 // Schedule OTP regeneration every 3 minutes
-cron.schedule("*/3 * * * *", regenerateOTP);
+// cron.schedule("*/3 * * * *", regenerateOTP);
 cron.schedule("*/3 * * * *", getOTP); // For Testing
 
 app.listen(port, () => {

@@ -39,11 +39,8 @@ const handleMessage = (message, replyToken) => {
 
 const handleText = async (message, replyToken) => {
   const otp = await getOTP();
-  console.log("handleText");
-  console.log(otp);
 
   if (otp.length > 0) {
-    console.log(otp[otp.length - 1].otp);
 
     return replyText(
       replyToken,
