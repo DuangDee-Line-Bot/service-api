@@ -12,12 +12,12 @@ otp_db: list[serializers.Otp] = []
 
 
 async def get_one(value: str) -> serializers.Otp | None:
-    """Get One"""
+    """Get One."""
     return next((otp for otp in otp_db if otp.value == value), None)
 
 
 async def get_many() -> list[serializers.Otp]:
-    """Get Many"""
+    """Get Many."""
     return otp_db
 
 
@@ -25,7 +25,7 @@ async def get_many() -> list[serializers.Otp]:
 
 
 async def create() -> serializers.Otp:
-    """Create a Otp"""
+    """Create a Otp."""
     otp = serializers.Otp(
         value=generate_otp(),
         created_at=get_current_datetime(),
@@ -41,7 +41,7 @@ async def create() -> serializers.Otp:
 
 
 async def update(value: str, request: serializers.UpdateOtp) -> serializers.Otp | None:
-    """Update an Otp by value"""
+    """Update an Otp by value."""
     otp = await get_one(value)
     if otp:
         # Update only provided fields (skip None values)
@@ -55,7 +55,7 @@ async def update(value: str, request: serializers.UpdateOtp) -> serializers.Otp 
 
 
 async def delete(value: str) -> serializers.Otp | serializers.Message:
-    """Delete an Otp by value"""
+    """Delete an Otp by value."""
     otp = await get_one(value)
     if otp is None:
         return serializers.Message(message="Not Found Otp")
@@ -64,7 +64,7 @@ async def delete(value: str) -> serializers.Otp | serializers.Message:
 
 
 def generate_otp() -> str:
-    """Random Otp value"""
+    """Random Otp value."""
     return "".join(
         random.choices(string.ascii_uppercase + string.digits, k=cfg.OTP_LENGTH)
     )
