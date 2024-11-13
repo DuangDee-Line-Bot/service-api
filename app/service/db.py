@@ -25,6 +25,12 @@ def get_db():
 
 
 def find_data(bot_api: str, reply_token: str, msg: str) -> bool:
+    """Searches for a matching item in the database based on a key and sends a
+    formatted response if found.
+
+    Returns True if a match is found, otherwise replies with a 'not
+    found' message and returns False.
+    """
     data = get_db()
     matched_item = next((x for x in data if x["key"] == msg), None)
     if matched_item:
