@@ -1,4 +1,5 @@
 from fastapi import APIRouter
+
 from app.service import otp as service_otp
 
 router = APIRouter(prefix="/otp", tags=["Otp"])

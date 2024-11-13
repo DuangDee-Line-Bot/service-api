@@ -1,8 +1,9 @@
 import random
 import string
-from app import serializers
-from app import config as cfg
 from datetime import timedelta
+
+from app import config as cfg
+from app import serializers
 from app.utils import get_current_datetime
 
 otp_db: list[serializers.Otp] = []
@@ -24,14 +25,14 @@ async def get_many() -> list[serializers.Otp]:
 """Post"""
 
 
-async def create() -> serializers.Otp:
+async def create(user_id: str | None = None) -> serializers.Otp:
     """Create a Otp."""
     otp = serializers.Otp(
         value=generate_otp(),
         created_at=get_current_datetime(),
         expired_at=(get_current_datetime() + timedelta(seconds=cfg.OTP_EXPIRY)),
-        is_authen=False,
         is_used=False,
+        used_for=user_id,
     )
     otp_db.append(otp)
     return otp
