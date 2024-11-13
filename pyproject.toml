@@ -1,0 +1,74 @@
+[tool.pytest.ini_options]
+addopts = "-s -vv"
+asyncio_mode = "auto"
+testpaths = ["tests"]
+env = ["THAIBULK_KEY=mock", "EMAIL_OTP_REDIRECT_URI=mock"]
+
+[tool.black]
+target-version = ["py311"]
+line-length = 88
+
+[tool.ruff]
+target-version = "py311"
+line-length = 88
+lint.select = [
+  "A",
+  "ARG",
+  "B",
+  "C",
+  "E",
+  "EM",
+  "F",
+  "I",
+  "ICN",
+  "ISC",
+  "N",
+  "PLC",
+  "PLE",
+  "PLR",
+  "PLW",
+  "Q",
+  "RUF",
+  "S",
+  "T",
+  "TID",
+  "UP",
+  "W",
+  "YTT",
+]
+lint.ignore = [
+  # Allow non-abstract empty methods in abstract base classes
+  "B027",
+  # Ignore checks for possible passwords
+  "S105",
+  "S106",
+  "S107",
+  # Ignore complexity
+  "C901",
+  "PLR0911",
+  "PLR0912",
+  "PLR0913",
+  "PLR0915",
+  # Ignore line length, let black, docformatter handle it
+  "E501",
+  # Ignore cache usage
+  "B019",
+  # Ignore None and Boolen comparisons from sqlalchemy and pandas
+  "E711",
+  "E712",
+  # Ignore other
+  "E741",
+  "N802",
+  "S311",
+  "S104",
+  "B008",
+  "S101",
+  "RUF006",
+  "N815",
+]
+
+[tool.ruff.lint.per-file-ignores]
+# Don't touch unused imports
+"**/__init__.py" = ["F401", "F403"]
+# Tests can use magic values, assertions, and other things
+"tests/**/*" = ["PLR2004", "S101", "E721", "T", "ARG", "B006", "B008", "S311"]
