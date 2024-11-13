@@ -17,6 +17,11 @@ async def get_one(value: str) -> serializers.Otp | None:
     return next((otp for otp in otp_db if otp.value == value), None)
 
 
+async def get_one_by_used_for(used_for: str) -> list[serializers.Otp] | None:
+    """Get One by using `user_id` property."""
+    return [otp for otp in otp_db if otp.used_for == used_for and not otp.is_used]
+
+
 async def get_many() -> list[serializers.Otp]:
     """Get Many."""
     return otp_db
