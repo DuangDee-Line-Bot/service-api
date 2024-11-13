@@ -25,14 +25,14 @@ async def get_many() -> list[serializers.Otp]:
 """Post"""
 
 
-async def create(user_id: str | None = None) -> serializers.Otp:
+async def create() -> serializers.Otp:
     """Create a Otp."""
     otp = serializers.Otp(
         value=generate_otp(),
         created_at=get_current_datetime(),
         expired_at=(get_current_datetime() + timedelta(seconds=cfg.OTP_EXPIRY)),
         is_used=False,
-        used_for=user_id,
+        used_for=None,
     )
     otp_db.append(otp)
     return otp
