@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  app:
+    build:
+      context: .
+    container_name: fastapi-app
+    ports:
+      - "8000:8000"
+    environment:
+      - CLIENT_CHANNEL_ACCESS_TOKEN=${CLIENT_CHANNEL_ACCESS_TOKEN}
+      - CLIENT_CHANNEL_SECRET=${CLIENT_CHANNEL_SECRET}
+      - ADMIN_CHANNEL_ACCESS_TOKEN=${ADMIN_CHANNEL_ACCESS_TOKEN}
+      - ADMIN_CHANNEL_SECRET=${ADMIN_CHANNEL_SECRET}
+      - OTP_LENGTH=${OTP_LENGTH}
+      - OTP_EXPIRY=${OTP_EXPIRY}
+      - GROUP_ID=${GROUP_ID}
+
+    volumes:
+      - .:/app
+    command: make start

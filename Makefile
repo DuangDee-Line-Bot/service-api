@@ -1,5 +1,5 @@
 start:
-	python -m run
+	python -m main
 
 dev:
 	uvicorn main:app --reload
