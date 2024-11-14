@@ -5,6 +5,7 @@ from linebot import LineBotApi
 
 from app import config as cfg
 from app import serializers
+from app.serializers.message import Message
 from app.service import db as service_db
 from app.service import otp as service_otp
 from app.utils import reply_msg, transform_event
@@ -14,15 +15,8 @@ client_bot_api = LineBotApi(cfg.CLIENT_CHANNEL_ACCESS_TOKEN)
 
 logger = logging.getLogger(__name__)
 
-# TODO:
-# - cronjob: expire remove in the list
-# - deployment
-# - more testing workflow
-# - change data souurce
-# - deployment
 
-
-async def webhook(request: Request):
+async def webhook(request: Request) -> Message:
     """Handle webhook requests and process OTP validation."""
     try:
         # Transform and deserialize the incoming request
