@@ -8,14 +8,14 @@
 This project is a simple Node.js API that provides two key functionalities:
 
 1. **Data Retrieval**: Serve data from a static JSON file through an API.
-2. **OTP Generation**: Generate a One-Time Password (OTP) which expires after it is fetched and then automatically regenerates a new one.
+2. **Otp Generation**: Generate a One-Time Password (Otp) which expires after it is fetched and then automatically regenerates a new one.
 
 The API is built using Express.js and supports configurable environment variables.
 
 ## Features
 
 - **GET /api/data**: Retrieves data from a static JSON file (`data.json`).
-- **GET /api/otp**: Generates a new OTP that expires after it's fetched and regenerates automatically.
+- **GET /api/otp**: Generates a new Otp that expires after it's fetched and regenerates automatically.
 
 ## Prerequisites
 
@@ -49,8 +49,8 @@ Make sure you have Node.js installed. You can download it from [here](https://no
 
    ```bash
    PORT=8080 # Port the server will run on
-   OTP_LENGTH=5 # Length of the generated OTP
-   OTP_EXPIRY=180000 # OTP expiry time in milliseconds (3 minutes)
+   OTP_LENGTH=5 # Length of the generated Otp
+   OTP_EXPIRY=180000 # Otp expiry time in milliseconds (3 minutes)
    ```
 
 4. **Start the server**

@@ -1,0 +1,8 @@
+docformatter
+black
+ruff
+pytest
+pytest-env
+pytest-asyncio
+pytest-mock
+httpx
