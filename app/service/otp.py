@@ -7,8 +7,6 @@ from app import serializers
 from app.utils import get_current_datetime
 
 otp_db: list[serializers.Otp] = []
-
-
 """Get"""
 
 

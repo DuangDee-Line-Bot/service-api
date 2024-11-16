@@ -162,3 +162,5 @@ cython_debug/
 .vscode
 playground.py
 .DS_Store
+*.json
+*.csv
