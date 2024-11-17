@@ -32,11 +32,12 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install pytest black docformatter ruff
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Validate Make Format
+      - name: Format and Lint Code
         run: |
-          make format
+          black .
+          docformatter -i -r .
+          ruff check --fix
 
       - name: Check for uncommitted changes
         run: |
