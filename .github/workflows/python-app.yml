@@ -1,0 +1,49 @@
+name: python-ci
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+  pull_request:
+    branches:
+      - main
+      - dev
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Make
+        run: sudo apt-get update && sudo apt-get install -y make
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.11.6"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest black docformatter ruff
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Format and Lint Code
+        run: |
+          black .
+          docformatter -i -r .
+          ruff check --fix
+
+      - name: Check for uncommitted changes
+        run: |
+          git diff --exit-code
+
+      - name: Test with pytest
+        run: |
+          pytest

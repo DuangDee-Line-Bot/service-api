@@ -7,7 +7,7 @@ from app import serializers
 from app.utils import get_current_datetime
 
 otp_db: list[serializers.Otp] = []
-"""Get"""
+"""Get."""
 
 
 async def get_one(value: str) -> serializers.Otp | None:
@@ -17,7 +17,7 @@ async def get_one(value: str) -> serializers.Otp | None:
 
 async def get_one_by_used_for(used_for: str) -> list[serializers.Otp] | None:
     """Get One by using `user_id` property."""
-    return [otp for otp in otp_db if otp.used_for == used_for and not otp.is_used]
+    return [otp for otp in otp_db if otp.used_for == used_for and otp.quota != 0]
 
 
 async def get_many() -> list[serializers.Otp]:
@@ -28,13 +28,13 @@ async def get_many() -> list[serializers.Otp]:
 """Post"""
 
 
-async def create() -> serializers.Otp:
+async def create(quota: int) -> serializers.Otp:
     """Create a Otp."""
     otp = serializers.Otp(
         value=generate_otp(),
         created_at=get_current_datetime(),
         expired_at=(get_current_datetime() + timedelta(seconds=cfg.OTP_EXPIRY)),
-        is_used=False,
+        quota=quota,
         used_for=None,
     )
     otp_db.append(otp)

@@ -32,7 +32,8 @@ def find_data(bot_api: str, reply_token: str, msg: str) -> bool:
     found' message and returns False.
     """
     data = get_db()
-    matched_item = next((x for x in data if x["key"] == msg), None)
+
+    matched_item = next((x for x in data if x["key"] == msg.lower()), None)
     if matched_item:
         # Format the response
         msg = (

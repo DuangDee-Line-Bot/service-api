@@ -7,10 +7,14 @@ class Otp(BaseModel):
     value: str
     created_at: datetime
     expired_at: datetime
-    is_used: bool
+    quota: int
     used_for: str | None = None
 
 
+class CreateOtp(BaseModel):
+    quota: int
+
+
 class UpdateOtp(BaseModel):
-    is_used: bool | None = None
+    quota: int | None = None
     used_for: str | None = None
