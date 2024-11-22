@@ -6,6 +6,7 @@ from linebot import LineBotApi
 from app import config as cfg
 from app import serializers
 from app.serializers.message import Message
+from app.serializers.otp import Otp
 from app.service import db as service_db
 from app.service import otp as service_otp
 from app.utils import reply_msg, transform_event
@@ -22,19 +23,19 @@ async def webhook(request: Request) -> Message:
         # Transform and deserialize the incoming request
         events: serializers.Event = await transform_event(request=request)
 
-        # Check if OTP exists and validate
+        # Get Message Content
         user_id, reply_token, msg = (
             events.source.userId,
             events.replyToken,
             events.message.text,
         )
-        exist_otp = await check_existing_otp(
+        # Get Exist OTP
+        exist_quota_otp: int | None = await check_existing_otp(
             user_id=user_id, reply_token=reply_token, msg=msg
         )
-
-        if exist_otp is True:
+        if exist_quota_otp > 0:
             return serializers.Message(message="Generated Prediction.")
-        elif exist_otp is None:
+        elif exist_quota_otp is None:
             return serializers.Message(message="Query is not correct.")
 
         # Retrieve OTP by message content
@@ -54,35 +55,36 @@ async def webhook(request: Request) -> Message:
 """Validation"""
 
 
-async def check_existing_otp(user_id: str, reply_token: str, msg: str) -> bool | None:
+async def check_existing_otp(user_id: str, reply_token: str, msg: str) -> int | None:
     """Check if a user has an existing unused OTP and process the prediction
     result."""
     owner_unuse_otp_list = await service_otp.get_one_by_used_for(used_for=user_id)
 
     if owner_unuse_otp_list:
         # Use the latest OTP
-        latest_otp = owner_unuse_otp_list[0]
+        latest_otp: Otp = owner_unuse_otp_list[0]
 
         if service_db.find_data(
             bot_api=client_bot_api, reply_token=reply_token, msg=msg
         ):
-            # Update OTP status to used
+            # Update OTP status quota
+            updated_quota: int = latest_otp.quota - 1
             await service_otp.update(
                 value=latest_otp.value,
-                request=serializers.UpdateOtp(is_used=True, used_for=user_id),
+                request=serializers.UpdateOtp(quota=updated_quota, used_for=user_id),
             )
-            return True
+            return updated_quota
         else:
             # Query format is incorrect
             return None
 
-    return False
+    return 0
 
 
 async def validate_otp(value: str, user_id: str, reply_token: str):
     """Validate OTP for a specific user and mark it as used."""
     await service_otp.update(
-        value=value, request=serializers.UpdateOtp(is_used=False, used_for=user_id)
+        value=value, request=serializers.UpdateOtp(used_for=user_id)
     )
     reply_msg(bot_api=client_bot_api, reply_token=reply_token, msg="OTP ของคุณถูกต้อง")
 
@@ -91,8 +93,8 @@ def handle_invalid_otp(otp: serializers.Otp | None, reply_token: str) -> bool:
     """Handle cases where the OTP is invalid, used, or expired."""
     if otp is None:
         msg = "OTP ไม่ตรงกันหรืออาจหมดอายุ โปรดส่งรหัส OTP ใหม่อีกครั้ง"
-    elif otp.is_used:
-        msg = "OTP ถูกใช้งานไปแล้ว"
+    elif otp == 0:
+        msg = "OTP ถูกใช้งานไปแล้ว หรือครบโควต้าแล้ว"
     else:
         return False
 

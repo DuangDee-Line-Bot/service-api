@@ -5,6 +5,7 @@ from linebot import LineBotApi
 
 from app import config as cfg
 from app import serializers
+from app.serializers.otp import Otp
 from app.service import otp as service_otp
 from app.utils import reply_msg, transform_event
 
@@ -30,7 +31,16 @@ async def webhook(request: Request):
 
         # generate otp
         if events.message.type == "text":
-            otp = await service_otp.create()
+            # validate input otp
+            try:
+                quota = int(events.message.text)
+            except Exception:
+                msg = "ข้อมูลรับเฉพาะตัวเลขเท่านั้น"
+                reply_msg(bot_api=admin_bot_api, reply_token=events.replyToken, msg=msg)
+                return serializers.Message(message=msg)
+
+            # create otp
+            otp: Otp = await service_otp.create(quota=quota)
             reply_msg(
                 bot_api=admin_bot_api, reply_token=events.replyToken, msg=otp.value
             )
