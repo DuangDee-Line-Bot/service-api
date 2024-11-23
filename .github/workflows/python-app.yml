@@ -71,7 +71,7 @@ jobs:
           docker push pooripro/thai-chai-service-api:latest
           
   cd:
-    needs: cd
+    needs: ci
     runs-on: self-hosted
     
     steps:
